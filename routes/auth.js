@@ -1,0 +1,116 @@
+const express = require("express");
+const router = express.Router();
+const pool = require("../db");
+const bcrypt = require("bcryptjs");
+const jwt = require("jsonwebtoken");
+const JWT_SECRET = process.env.JWT_SECRET;
+
+const getUserByEmail = async (email) => {
+  try {
+    const result = await pool.query("SELECT * FROM users WHERE email = $1", [
+      email,
+    ]);
+    const user = result.rows[0];
+    console.log("user: ", user);
+    return user;
+  } catch (err) {
+    console.error("Error executing query", err.stack);
+    throw err;
+  }
+};
+
+const hashPassword = async (password) => {
+  const saltRounds = 10;
+  try {
+    const hashedPassword = await bcrypt.hash(password, saltRounds);
+    return hashedPassword;
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
+};
+
+router.get("/", (req, res) => {
+  res.send("User List");
+});
+
+router.post("/login", async (req, res) => {
+  try {
+    console.log("log body: ", req.body);
+    const { email, password } = req.body;
+    if (!email || !password) {
+      return res.status(400).json({ error: "Email and password are required" });
+    }
+    const user = await getUserByEmail(email);
+
+    if (!user) {
+      return res.status(401).json({ error: "Invalid email or password" });
+    }
+    const passwordMatch = await bcrypt.compare(password, user.password);
+    console.log("match: ", passwordMatch);
+    if (!passwordMatch) {
+      return res.status(401).json({ error: "Invalid email or password" });
+    }
+    const token = jwt.sign({ user_data: user }, JWT_SECRET, {
+      expiresIn: "1h",
+    });
+    res.status(200).json({ message: "Login successful", token });
+  } catch (error) {
+    console.error("Error during login:", error);
+    res.status(500).json({ error: "Error during login" });
+  }
+});
+
+router.post("/signup", async (req, res) => {
+  try {
+    const { email, password, username, role } = req.body;
+    console.log(req.body);
+    const hashedPassword = await hashPassword(password);
+    const newUser = await pool.query(
+      "INSERT INTO users (email, password, username, role_id) VALUES($1, $2, $3, $4)",
+      [email, hashedPassword, username, role]
+    );
+    const token = jwt.sign({ user_data: newUser }, JWT_SECRET, {
+      expiresIn: "1h",
+    });
+    res.json(token);
+  } catch (error) {
+    if (error.code === "23505") {
+      if (error.constraint === "unique_email") {
+        console.log("Email already taken");
+        return res.status(400).json({ error: "Email already taken" });
+      } else if (error.constraint === "unique_username") {
+        console.log("Username already taken");
+        return res.status(400).json({ error: "Username already taken" });
+      }
+    }
+    console.error("Error saving user:", error);
+    res.status(500).send("Error saving user to the database");
+  }
+});
+
+function authenticateUser(req, res, next) {
+  const token = req.headers.authorization?.split(" ")[1];
+
+  if (!token) {
+    return res
+      .status(401)
+      .json({ error: "Authentication required - No token provided" });
+  }
+
+  try {
+    const decoded = jwt.verify(token, JWT_SECRET);
+    req.user = decoded;
+    next();
+  } catch (error) {
+    if (error.name === "JsonWebTokenError") {
+      console.error("Error authenticating user:", error);
+      return res.status(401).json({ error: "Authentication failed" });
+    } else {
+      console.error("Error authenticating user:", error);
+      return res.status(500).json({ error: "Authentication failed" }); // More generic error
+    }
+  }
+}
+
+module.exports = router;
