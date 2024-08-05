@@ -1,62 +1,28 @@
 -- Enable PostGIS Extension
 CREATE EXTENSION IF NOT EXISTS postgis;
 
--- Users Table
-CREATE TABLE users (
-  id SERIAL PRIMARY KEY,
-  username VARCHAR NOT NULL,
-  role_id INTEGER,
-  email VARCHAR NOT NULL,
-  password VARCHAR NOT NULL,
-  FOREIGN KEY (role_id) REFERENCES roles (id)
-);
-
 -- Roles Table
 CREATE TABLE roles (
   id SERIAL PRIMARY KEY,
   role_name VARCHAR NOT NULL
 );
 
--- Restaurants Table
-CREATE TABLE restaurant (
+-- Users Table
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  username VARCHAR NOT NULL,
+  role_id INTEGER,
+  email VARCHAR NOT NULL UNIQUE,
+  password VARCHAR NOT NULL,
+  FOREIGN KEY (role_id) REFERENCES roles (id)
+);
+
+-- Car Rental Agencies Table
+CREATE TABLE car_rental_agencies (
   id SERIAL PRIMARY KEY,
   name VARCHAR NOT NULL,
-  image_url VARCHAR,
-  owner_id INTEGER NOT NULL,
-  location GEOGRAPHY(Point, 4326),
-  address VARCHAR NOT NULL,
-  work_start TIME,
-  work_end TIME,
-  menu_id INTEGER,
-  rating INTEGER,
-  FOREIGN KEY (owner_id) REFERENCES users (id)
-);
-
--- Menu Table
-CREATE TABLE menu (
-  id SERIAL PRIMARY KEY,
-  restaurant_id INTEGER NOT NULL,
-  item_id INTEGER NOT NULL,
-  FOREIGN KEY (restaurant_id) REFERENCES restaurant (id),
-  FOREIGN KEY (item_id) REFERENCES menu_items (id)
-);
-
--- Menu Items Table
-CREATE TABLE menu_items (
-  id SERIAL PRIMARY KEY,
-  type TEXT NOT NULL,
-  name VARCHAR NOT NULL,
-  price INTEGER,
-  descr TEXT,
-  rating INTEGER
-);
-
--- Taxi Table
-CREATE TABLE taxi (
-  id SERIAL PRIMARY KEY,
-  vehicle_id INTEGER NOT NULL,
-  rating INTEGER,
-  FOREIGN KEY (vehicle_id) REFERENCES vehicles (id)
+  location VARCHAR NOT NULL,
+  image_url VARCHAR
 );
 
 -- Vehicles Table
@@ -74,12 +40,74 @@ CREATE TABLE vehicle_ownership (
   FOREIGN KEY (vehicle_id) REFERENCES vehicles (id)
 );
 
--- Car Rental Agencies Table
-CREATE TABLE car_rental_agencies (
+-- Trigger Function for conditional foreign key enforcement
+CREATE OR REPLACE FUNCTION enforce_owner_fk()
+RETURNS TRIGGER AS $$
+BEGIN
+  IF NEW.owner_type = 'user' THEN
+    IF NOT EXISTS (SELECT 1 FROM users WHERE id = NEW.owner_id) THEN
+      RAISE EXCEPTION 'Invalid user_id: %', NEW.owner_id;
+    END IF;
+  ELSIF NEW.owner_type = 'agency' THEN
+    IF NOT EXISTS (SELECT 1 FROM car_rental_agencies WHERE id = NEW.owner_id) THEN
+      RAISE EXCEPTION 'Invalid agency_id: %', NEW.owner_id;
+    END IF;
+  ELSE
+    RAISE EXCEPTION 'Invalid owner_type: %', NEW.owner_type;
+  END IF;
+  RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Trigger Definition
+CREATE TRIGGER check_owner_fk
+BEFORE INSERT OR UPDATE ON vehicle_ownership
+FOR EACH ROW EXECUTE FUNCTION enforce_owner_fk();
+
+-- Restaurants Table
+CREATE TABLE restaurant (
   id SERIAL PRIMARY KEY,
   name VARCHAR NOT NULL,
-  location VARCHAR NOT NULL,
-  image_url VARCHAR
+  image_url VARCHAR,
+  owner_id INTEGER NOT NULL,
+  lon FLOAT,
+  lat FLOAT,
+  road VARCHAR,
+  city VARCHAR,
+  state VARCHAR,
+  country VARCHAR,
+  work_start TIME,
+  work_end TIME,
+  menu_id INTEGER,
+  rating INTEGER,
+  FOREIGN KEY (owner_id) REFERENCES users (id)
+);
+
+-- Menu Items Table
+CREATE TABLE menu_items (
+  id SERIAL PRIMARY KEY,
+  type TEXT NOT NULL,
+  name VARCHAR NOT NULL,
+  price INTEGER,
+  descr TEXT,
+  rating INTEGER
+);
+
+-- Menu Table
+CREATE TABLE menu (
+  id SERIAL PRIMARY KEY,
+  restaurant_id INTEGER NOT NULL,
+  item_id INTEGER NOT NULL,
+  FOREIGN KEY (restaurant_id) REFERENCES restaurant (id),
+  FOREIGN KEY (item_id) REFERENCES menu_items (id)
+);
+
+-- Taxi Table
+CREATE TABLE taxi (
+  id SERIAL PRIMARY KEY,
+  vehicle_id INTEGER NOT NULL,
+  rating INTEGER,
+  FOREIGN KEY (vehicle_id) REFERENCES vehicles (id)
 );
 
 -- Car Rental Table
@@ -100,8 +128,12 @@ CREATE TABLE car_ride (
   user_id INTEGER NOT NULL,
   price INTEGER,
   distance INTEGER,
-  ride_start GEOGRAPHY(Point, 4326),
-  ride_end GEOGRAPHY(Point, 4326),
+  ride_start VARCHAR,
+  ride_end VARCHAR,
+  start_lon FLOAT,
+  start_lat FLOAT,
+  end_lon FLOAT,
+  end_lat FLOAT,
   FOREIGN KEY (taxi_id) REFERENCES taxi (id),
   FOREIGN KEY (user_id) REFERENCES users (id)
 );
@@ -112,10 +144,14 @@ CREATE TABLE hotels (
   image_url VARCHAR,
   name VARCHAR NOT NULL,
   owner_id INTEGER NOT NULL,
-  location GEOGRAPHY(Point, 4326),
+  lon FLOAT,
+  lat FLOAT,
   work_start TIME,
   work_end TIME,
-  address VARCHAR NOT NULL,
+  road VARCHAR,
+  city VARCHAR,
+  state VARCHAR,
+  country VARCHAR,
   rating INTEGER,
   FOREIGN KEY (owner_id) REFERENCES users (id)
 );
@@ -162,35 +198,17 @@ CREATE TABLE hotel_services (
 -- Places Table
 CREATE TABLE places (
   id SERIAL PRIMARY KEY,
-  location GEOGRAPHY(Point, 4326)
+  lat VARCHAR,
+  lon VARCHAR,
 );
 
--- Relationships
+-- Add foreign key to restaurant table for menu_id
 ALTER TABLE restaurant
   ADD FOREIGN KEY (menu_id) REFERENCES menu (id);
 
--- Triggers for conditional foreign key enforcement
-
--- Trigger Function
-CREATE OR REPLACE FUNCTION enforce_owner_fk()
-RETURNS TRIGGER AS $$
-BEGIN
-  IF NEW.owner_type = 'user' THEN
-    IF NOT EXISTS (SELECT 1 FROM users WHERE id = NEW.owner_id) THEN
-      RAISE EXCEPTION 'Invalid user_id: %', NEW.owner_id;
-    END IF;
-  ELSIF NEW.owner_type = 'agency' THEN
-    IF NOT EXISTS (SELECT 1 FROM car_rental_agencies WHERE id = NEW.owner_id) THEN
-      RAISE EXCEPTION 'Invalid agency_id: %', NEW.owner_id;
-    END IF;
-  ELSE
-    RAISE EXCEPTION 'Invalid owner_type: %', NEW.owner_type;
-  END IF;
-  RETURN NEW;
-END;
-$$ LANGUAGE plpgsql;
-
--- Trigger Definition
-CREATE TRIGGER check_owner_fk
-BEFORE INSERT OR UPDATE ON vehicle_ownership
-FOR EACH ROW EXECUTE FUNCTION enforce_owner_fk();
+-- Insert roles into the roles table
+INSERT INTO roles (role_name) VALUES ('User');
+INSERT INTO roles (role_name) VALUES ('Hotel');
+INSERT INTO roles (role_name) VALUES ('Agency');
+INSERT INTO roles (role_name) VALUES ('Taxi');
+INSERT INTO roles (role_name) VALUES ('Restaurant');
