@@ -212,3 +212,10 @@ INSERT INTO roles (role_name) VALUES ('Hotel');
 INSERT INTO roles (role_name) VALUES ('Agency');
 INSERT INTO roles (role_name) VALUES ('Taxi');
 INSERT INTO roles (role_name) VALUES ('Restaurant');
+
+
+ user: "postgres",
+    password: "aziz",
+    host: "localhost",
+    port: 5432,
+    database: "TourismApp"
