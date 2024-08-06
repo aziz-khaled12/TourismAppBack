@@ -11,7 +11,7 @@ router.get("/", authenticateUser, async (req, res) => {
     const hotels = await pool.query("SELECT * FROM hotels");
     res.json(hotels.rows);
   } catch (error) {
-    res.status(500).send("Data not available");
+    res.status(404).send("Data not available");
   }
 });
 
