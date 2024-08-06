@@ -4,6 +4,7 @@ require('dotenv').config();
 const userRouter = require("./routes/users")
 const authRouter = require("./routes/auth")
 const hotelsRouter = require("./routes/hotels")
+const testRouter = require("./routes/test")
 const restaurantsRouter = require("./routes/restaurants")
 const locationsRouter = require("./routes/locations")
 const fs = require("fs");
@@ -25,6 +26,8 @@ app.use('/auth', authRouter)
 app.use('/hotels', hotelsRouter)
 app.use('/restaurants', restaurantsRouter)
 app.use('/locations', locationsRouter)
+app.use('/test', testRouter)
+
 
 
 app.listen(port)
