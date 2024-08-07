@@ -9,9 +9,9 @@ const getRestaurantsWithinRadius = async (lat, lon, radius) => {
       SELECT *
       FROM restaurant
       WHERE ST_DWithin(
-        location,
-        ST_SetSRID(ST_MakePoint($1, $2), 4326),
-        $3
+      location,
+      ST_SetSRID(ST_MakePoint($1, $2), 4326)::geography,
+      $3
       );
     `;
 
