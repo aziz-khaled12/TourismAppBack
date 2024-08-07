@@ -101,6 +101,8 @@ const insertRestaurant = async (restaurantData, ownerId) => {
 };
 
 
+
+
 // Function to insert a hotel
 const insertHotel = async (hotelData, ownerId) => {
   const randomRating = Math.floor(Math.random() * 5) + 1;
@@ -162,6 +164,8 @@ const loadLocationData = (LocationPath) => {
     throw error;
   }
 };
+
+
 
 
 
