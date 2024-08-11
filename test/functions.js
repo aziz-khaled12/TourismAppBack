@@ -137,7 +137,6 @@ const main = async () => {
       const email = `${hotel.id}@hotel.com`;
       const username = hotel.name.replace(/\s/g, '_').toLowerCase();
       const password = username; // Set a default password
-
       const ownerId = await insertUser(username, email, password);
       await insertHotel(hotel, ownerId);
     }

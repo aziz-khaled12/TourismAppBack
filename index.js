@@ -16,6 +16,9 @@ const bcrypt = require("bcryptjs");
 const app = express()
 const port = 3000
 
+// Serve static files from the uploads directory
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
 //Middleware
 app.use(cors())
 app.use(express.json());
