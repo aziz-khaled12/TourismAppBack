@@ -1,57 +1,23 @@
 const express = require("express");
 const router = express.Router();
 const pool = require("../db");
+const admin = require("firebase-admin");
 const authenticateUser = require("../middlewares/authMiddleware");
 const multer = require("multer");
+const fs = require("fs");
 const path = require("path");
 
-// Set storage engine
-const storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, "uploads/"); // Set the destination folder for uploads
-  },
-  filename: function (req, file, cb) {
-    cb(
-      null,
-      file.fieldname + "-" + Date.now() + path.extname(file.originalname)
-    );
-  },
+admin.initializeApp({
+  credential: admin.credential.cert(
+    require("../firebase-service-account.json")
+  ),
+  storageBucket: "tourism-app-4f5ec.appspot.com",
 });
 
-// Initialize upload variable with multer configuration
-const upload = multer({
-  storage: storage,
-  limits: { fileSize: 10000000 }, // Optional: Set file size limit (10MB in this case)
-}).single("image"); // 'image' is the name of the field in the form
+const bucket = admin.storage().bucket();
+// Multer setup for handling file uploads
+const upload = multer({ dest: "uploads/" });
 
-router.post("/room", authenticateUser, (req, res) => {
-  upload(req, res, async (err) => {
-    if (err) {
-      return res.status(500).send("Error uploading file.");
-    }
-
-    const { capacity, number, price, hotel_id } = req.body;
-    const image = req.file ? req.file.filename : null;
-
-    if (!capacity || !number || !price || !image || !hotel_id) {
-      return res.status(400).send("Please provide all required fields.");
-    }
-
-    try {
-      const query = `
-        INSERT INTO hotel_rooms (hotel_id, number, capacity, price, image_url)
-        VALUES ($1, $2, $3, $4, $5)
-        RETURNING *`;
-      const values = [hotel_id, number, capacity, price, image];
-
-      const result = await pool.query(query, values);
-      res.json(result.rows[0]);
-    } catch (error) {
-      console.error("Error inserting room:", error);
-      res.status(500).send("Server error.");
-    }
-  });
-});
 
 
 router.get("/", authenticateUser, async (req, res) => {
@@ -90,14 +56,138 @@ router.get("/info/:id", authenticateUser, async (req, res) => {
 });
 
 router.get("/rooms/:hotelId", authenticateUser, async (req, res) => {
-  const {hotelId} = req.params;
+  const { hotelId } = req.params;
   try {
-    const result = await pool.query("SELECT * FROM hotel_rooms WHERE hotel_id=$1", [hotelId]);
+    const result = await pool.query(
+      "SELECT * FROM hotel_rooms WHERE hotel_id=$1",
+      [hotelId]
+    );
     res.json(result.rows);
   } catch (error) {
     console.log(error);
   }
-})
+});
+
+router.post(
+  "/room",
+  authenticateUser,
+  upload.single("image"),
+  async (req, res) => {
+    const { capacity, number, price, hotel_id } = req.body;
+
+    try {
+      let imageUrl = null;
+
+      if (req.file) {
+        const file = req.file;
+        const destination = `rooms/${file.filename}-${Date.now()}${path.extname(
+          file.originalname
+        )}`;
+
+        await bucket.upload(file.path, {
+          destination: destination,
+          public: true, // Ensures the file is publicly accessible
+          metadata: {
+            contentType: file.mimetype, // Sets the correct content type
+          },
+        });
+
+        imageUrl = `https://storage.googleapis.com/${bucket.name}/${destination}`;
+
+        // Delete the file from the local server after uploading
+        fs.unlinkSync(file.path);
+      }
+
+      const query = `
+        INSERT INTO hotel_rooms (hotel_id, number, capacity, price, image_url)
+        VALUES ($1, $2, $3, $4, $5)
+        RETURNING *`;
+      const values = [hotel_id, number, capacity, price, imageUrl];
+
+      const result = await pool.query(query, values);
+      res.json(result.rows[0]);
+    } catch (error) {
+      console.error("Error inserting room:", error);
+      res.status(500).send("Server error.");
+    }
+  }
+);
+
+router.put("/room/:id", authenticateUser, upload.single('image'), async (req, res) => {
+  const { capacity, number, price, hotel_id, oldImageUrl } = req.body;
+  const roomId = req.params.id;
+
+  try {
+    let imageUrl = oldImageUrl; // Use the existing image URL by default
+
+    if (req.file) {
+      // If a new image is uploaded, delete the old one and upload the new image
+      if (oldImageUrl) {
+        const filePath = oldImageUrl.split(`${bucket.name}/`)[1];
+        await bucket.file(filePath).delete();
+      }
+
+      const file = req.file;
+      const destination = `rooms/${file.filename}-${Date.now()}${path.extname(file.originalname)}`;
+
+      await bucket.upload(file.path, {
+        destination: destination,
+        public: true,
+        metadata: {
+          contentType: file.mimetype,
+        },
+      });
+
+      imageUrl = `https://storage.googleapis.com/${bucket.name}/${destination}`;
+      fs.unlinkSync(file.path); // Delete the local file after upload
+    }
+
+    const query = `
+        UPDATE hotel_rooms 
+        SET hotel_id = $1, number = $2, capacity = $3, price = $4, image_url = $5
+        WHERE id = $6
+        RETURNING *`;
+    const values = [hotel_id, number, capacity, price, imageUrl, roomId];
+
+    const result = await pool.query(query, values);
+    res.json(result.rows[0]);
+  } catch (error) {
+    console.error("Error updating room:", error);
+    res.status(500).send("Server error.");
+  }
+});
+
+
+router.delete("/room/:id", authenticateUser, async (req, res) => {
+  const { hotel_id, number, capacity, price, oldImageUrl } = req.body;
+  const roomId = req.params.id;
+
+  try {
+    // If an old image URL is provided, delete the image from Firebase Storage
+    if (oldImageUrl) {
+      const filePath = oldImageUrl.split(`${bucket.name}/`)[1];
+      await bucket.file(filePath).delete();
+    }
+
+    // Delete the room from the database
+    const query = `
+        DELETE FROM hotel_rooms 
+        WHERE id = $1 AND hotel_id = $2 AND number = $3 AND capacity = $4 AND price = $5
+        RETURNING *`;
+    const values = [roomId, hotel_id, number, capacity, price];
+
+    const result = await pool.query(query, values);
+
+    if (result.rows.length === 0) {
+      return res.status(404).send("Room not found or does not match the provided details.");
+    }
+
+    res.json({ message: "Room deleted successfully." });
+  } catch (error) {
+    console.error("Error deleting room:", error);
+    res.status(500).send("Server error.");
+  }
+});
 
 
 module.exports = router;
