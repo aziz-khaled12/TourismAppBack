@@ -12,12 +12,13 @@ admin.initializeApp({
     type: process.env.FIREBASE_TYPE,
     project_id: process.env.FIREBASE_PROJECT_ID,
     private_key_id: process.env.FIREBASE_PRIVATE_KEY_ID,
-    private_key: process.env.FIREBASE_PRIVATE_KEY,  // Ensure proper formatting
+    private_key: process.env.FIREBASE_PRIVATE_KEY, // Ensure proper formatting
     client_email: process.env.FIREBASE_CLIENT_EMAIL,
     client_id: process.env.FIREBASE_CLIENT_ID,
     auth_uri: process.env.FIREBASE_AUTH_URI,
     token_uri: process.env.FIREBASE_TOKEN_URI,
-    auth_provider_x509_cert_url: process.env.FIREBASE_AUTH_PROVIDER_X509_CERT_URL,
+    auth_provider_x509_cert_url:
+      process.env.FIREBASE_AUTH_PROVIDER_X509_CERT_URL,
     client_x509_cert_url: process.env.FIREBASE_CLIENT_X509_CERT_URL,
     universe_domain: process.env.FIREBASE_UNIVERSE_DOMAIN,
   }),
@@ -27,8 +28,6 @@ admin.initializeApp({
 const bucket = admin.storage().bucket();
 // Multer setup for handling file uploads
 const upload = multer({ dest: "uploads/" });
-
-
 
 router.get("/", authenticateUser, async (req, res) => {
   try {
@@ -109,8 +108,8 @@ router.post(
       }
 
       const query = `
-        INSERT INTO hotel_rooms (hotel_id, number, capacity, price, image_url)
-        VALUES ($1, $2, $3, $4, $5)
+        INSERT INTO hotel_rooms (hotel_id, number, capacity, price, image_url, occupied, free)
+        VALUES ($1, $2, $3, $4, $5, 0, $2)
         RETURNING *`;
       const values = [hotel_id, number, capacity, price, imageUrl];
 
@@ -123,53 +122,59 @@ router.post(
   }
 );
 
-router.put("/room/:id", authenticateUser, upload.single('image'), async (req, res) => {
-  const { capacity, number, price, hotel_id, oldImageUrl } = req.body;
-  const roomId = req.params.id;
+router.put(
+  "/room/:id",
+  authenticateUser,
+  upload.single("image"),
+  async (req, res) => {
+    const { capacity, number, price, hotel_id, oldImageUrl } = req.body;
+    const roomId = req.params.id;
 
-  try {
-    let imageUrl = oldImageUrl; // Use the existing image URL by default
+    try {
+      let imageUrl = oldImageUrl; // Use the existing image URL by default
 
-    if (req.file) {
-      // If a new image is uploaded, delete the old one and upload the new image
-      if (oldImageUrl) {
-        const filePath = oldImageUrl.split(`${bucket.name}/`)[1];
-        await bucket.file(filePath).delete();
+      if (req.file) {
+        // If a new image is uploaded, delete the old one and upload the new image
+        if (oldImageUrl) {
+          const filePath = oldImageUrl.split(`${bucket.name}/`)[1];
+          await bucket.file(filePath).delete();
+        }
+
+        const file = req.file;
+        const destination = `rooms/${file.filename}-${Date.now()}${path.extname(
+          file.originalname
+        )}`;
+
+        await bucket.upload(file.path, {
+          destination: destination,
+          public: true,
+          metadata: {
+            contentType: file.mimetype,
+          },
+        });
+
+        imageUrl = `https://storage.googleapis.com/${bucket.name}/${destination}`;
+        fs.unlinkSync(file.path); // Delete the local file after upload
       }
 
-      const file = req.file;
-      const destination = `rooms/${file.filename}-${Date.now()}${path.extname(file.originalname)}`;
-
-      await bucket.upload(file.path, {
-        destination: destination,
-        public: true,
-        metadata: {
-          contentType: file.mimetype,
-        },
-      });
-
-      imageUrl = `https://storage.googleapis.com/${bucket.name}/${destination}`;
-      fs.unlinkSync(file.path); // Delete the local file after upload
-    }
-
-    const query = `
+      const query = `
         UPDATE hotel_rooms 
         SET hotel_id = $1, number = $2, capacity = $3, price = $4, image_url = $5
         WHERE id = $6
         RETURNING *`;
-    const values = [hotel_id, number, capacity, price, imageUrl, roomId];
+      const values = [hotel_id, number, capacity, price, imageUrl, roomId];
 
-    const result = await pool.query(query, values);
-    res.json(result.rows[0]);
-  } catch (error) {
-    console.error("Error updating room:", error);
-    res.status(500).send("Server error.");
+      const result = await pool.query(query, values);
+      res.json(result.rows[0]);
+    } catch (error) {
+      console.error("Error updating room:", error);
+      res.status(500).send("Server error.");
+    }
   }
-});
-
+);
 
 router.delete("/room/:id", authenticateUser, async (req, res) => {
-  const { hotel_id, number, capacity, price, oldImageUrl } = req.body;
+  const { hotel_id, number, capacity, price, oldImageUrl } = req.query;
   const roomId = req.params.id;
 
   try {
@@ -189,7 +194,9 @@ router.delete("/room/:id", authenticateUser, async (req, res) => {
     const result = await pool.query(query, values);
 
     if (result.rows.length === 0) {
-      return res.status(404).send("Room not found or does not match the provided details.");
+      return res
+        .status(404)
+        .send("Room not found or does not match the provided details.");
     }
 
     res.json({ message: "Room deleted successfully." });
@@ -198,6 +205,5 @@ router.delete("/room/:id", authenticateUser, async (req, res) => {
     res.status(500).send("Server error.");
   }
 });
-
 
 module.exports = router;
