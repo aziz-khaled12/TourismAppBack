@@ -1,0 +1,7773 @@
+[
+  {
+    "type": "node",
+    "id": 316488456,
+    "lat": 21.8245727,
+    "lon": 6.4933813,
+    "tags": {
+      "name": "El Ghessour",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316488457,
+    "lat": 21.6173057,
+    "lon": 6.4390016,
+    "tags": {
+      "name": "Tin Akaschaker",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316488458,
+    "lat": 21.5804644,
+    "lon": 6.4591712,
+    "tags": {
+      "name": "Tagrera",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316491234,
+    "lat": 21.8636074,
+    "lon": 6.8695366,
+    "tags": {
+      "name": "Felsgravuren im Wadi Tin Tarabine",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316491235,
+    "lat": 22.0059858,
+    "lon": 6.7598624,
+    "tags": {
+      "name": "Youf Ahakit",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316491236,
+    "lat": 21.9986349,
+    "lon": 6.7767234,
+    "tags": {
+      "name": "Tirsi (\"Ziege\")",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316491237,
+    "lat": 22.1299606,
+    "lon": 6.8212045,
+    "tags": {
+      "name": "Tunnel von Telimfasa",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316491238,
+    "lat": 22.1884241,
+    "lon": 6.7764158,
+    "tags": {
+      "name": "Youf Aghlal",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316495211,
+    "lat": 24.8378737,
+    "lon": 9.0763349,
+    "tags": {
+      "name": "Tikoubaouine (\"Elefantenfelsen\")",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316496842,
+    "lat": 24.380277,
+    "lon": 9.4323492,
+    "tags": {
+      "access": "yes",
+      "alt_name:ar": "تسوت",
+      "archaeological_site": "petroglyph",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "البقرة البكاء",
+      "name:ar": "البقرة البكاء",
+      "name:de": "Weinende Kuh",
+      "name:en": "Crying Cows",
+      "name:fr": "La vache qui pleure",
+      "name:thv": "Tessout",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316496845,
+    "lat": 23.8523635,
+    "lon": 10.3749837,
+    "tags": {
+      "archaeological_site": "petroglyph",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "name": "Tin Akahem (Felsmalereien)",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316496847,
+    "lat": 23.9192589,
+    "lon": 10.9031216,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "petroglyph",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "neolithic petroglyphs",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316496848,
+    "lat": 23.9265121,
+    "lon": 10.9231088,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "petroglyph",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "Felsgravuren",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316496849,
+    "lat": 24.0123527,
+    "lon": 10.9543674,
+    "tags": {
+      "is_in": "Djanet , Illizi, Algeria",
+      "name": "Dunes of Moul n`Aga",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316496850,
+    "lat": 23.9820524,
+    "lon": 10.9267505,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "petroglyph",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "Akaham ouan Elbered",
+      "name:de": "Höhle von Elbered, Felsmalereien",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316499802,
+    "lat": 24.1110339,
+    "lon": 10.9538904,
+    "tags": {
+      "name": "Dunes of Ouan Zaouatan",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316499803,
+    "lat": 24.0773348,
+    "lon": 10.9357146,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "petroglyph",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "Ouan Zaouatan",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316499804,
+    "lat": 24.1336841,
+    "lon": 10.9314218,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "petroglyph",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "النقوش الصخرية بوان تيكال",
+      "name:ar": "النقوش الصخرية بوان تيكال",
+      "name:de": "Felsgravuren in Ouan Tikal",
+      "name:fr": "Pétroglyphes de Oued Tikal",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316499805,
+    "lat": 24.1879373,
+    "lon": 10.8621507,
+    "tags": {
+      "attraction": "nature",
+      "drinking_water": "no",
+      "intermittent": "no",
+      "name": "قلطة وادي أبو هديان الدائمة",
+      "name:ar": "قلطة وادي أبو هديان الدائمة",
+      "name:en": "permanent guelta of Wadi Bouhadian",
+      "name:fr": "Guelta Oued Bouhadian",
+      "natural": "spring",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316499806,
+    "lat": 24.200283,
+    "lon": 10.876935,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "rock_painting",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "اللوحات الصخرية بوادي أبو هديان",
+      "name:ar": "اللوحات الصخرية بوادي أبو هديان",
+      "name:de": "Felsmalereien im Wadi Bouhadian",
+      "name:fr": "Peintures rupestres vallée Bouhadian",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316499807,
+    "lat": 24.2347282,
+    "lon": 10.8838871,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "rock_painting",
+      "attraction": "historic",
+      "description": "neolithic rock paintings",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "Ouan Takanessit Felsmalereien",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316499808,
+    "lat": 24.2467951,
+    "lon": 10.9320767,
+    "tags": {
+      "description": "int. rock formation",
+      "name": "Takanessit (\"Der Igel\")",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316499809,
+    "lat": 24.2978054,
+    "lon": 10.9278772,
+    "tags": {
+      "name": "Large dunes of Tin Merzouga",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316499810,
+    "lat": 24.2695267,
+    "lon": 10.8518936,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "rock_painting",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "Ouan Atan Felsmalereien",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316501703,
+    "lat": 24.0660215,
+    "lon": 10.8831037,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "petroglyph",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "Fish petroglyphs",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316501704,
+    "lat": 24.0648806,
+    "lon": 10.84968,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "petroglyph",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "Ouan Ekli petroglyphs",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316501705,
+    "lat": 24.0449005,
+    "lon": 10.830353,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "petroglyph",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316501708,
+    "lat": 24.0790506,
+    "lon": 10.8249924,
+    "tags": {
+      "name": "Tisseteka Canyon",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 316501709,
+    "lat": 24.0545452,
+    "lon": 10.7661662,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "rock_painting",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "prehistoric",
+      "name": "rock paintings",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 490536991,
+    "lat": 30.9170611,
+    "lon": -2.0294754,
+    "tags": {
+      "name": "Taghit",
+      "name:ar": "تاغيت",
+      "name:ber": "ⵜⴰⵖⵉⵜ",
+      "name:en": "Taghit",
+      "name:fr": "Taghit",
+      "name:kab": "Taɣit",
+      "place": "village",
+      "population": "6505",
+      "tourism": "attraction",
+      "wikidata": "Q3052604",
+      "wikimedia_commons": "Category:Taghit",
+      "wikipedia": "fr:Taghit"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1158934035,
+    "lat": 25.3742424,
+    "lon": 8.4328597,
+    "tags": {
+      "name": "Idaran Viewpoint",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1159638043,
+    "lat": 24.689098,
+    "lon": 9.213515,
+    "tags": {
+      "name": "Tilafzou",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1159638056,
+    "lat": 24.8205695,
+    "lon": 9.0908667,
+    "tags": {
+      "name": "Tikoubaouine",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1159638060,
+    "lat": 24.6808495,
+    "lon": 9.2283466,
+    "tags": {
+      "name": "Assassou",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1159638067,
+    "lat": 24.5470162,
+    "lon": 9.2986284,
+    "tags": {
+      "name": "Timghas",
+      "name:ar": "تيمغاس",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1159638070,
+    "lat": 24.7319345,
+    "lon": 9.1817579,
+    "tags": {
+      "name": "Tilalhin",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1159638147,
+    "lat": 24.6559287,
+    "lon": 9.2577893,
+    "tags": {
+      "name": "Immourouden",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1159638161,
+    "lat": 24.5324291,
+    "lon": 9.2382213,
+    "tags": {
+      "addr:city": "جانت",
+      "alt_name": "عرق أدمر;عرق ادمر",
+      "alt_name:ar": "عرق أدمر;عرق ادمر",
+      "name": "عرق آدمر",
+      "name:ar": "عرق آدمر",
+      "name:en": "Erg Admer",
+      "name:fr": "Erg Admer",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1229440112,
+    "lat": 24.0302003,
+    "lon": 10.9035413,
+    "tags": {
+      "attraction": "nature",
+      "name": "La Cathedrale (large arches) Arch Temezguida",
+      "natural": "arch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1229448271,
+    "lat": 24.0155206,
+    "lon": 10.6893616,
+    "tags": {
+      "attraction": "nature",
+      "name": "Dunes Noires",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1230776910,
+    "lat": 24.0335748,
+    "lon": 10.9543028,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "rock_painting",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "neolithic painting",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1230777564,
+    "lat": 24.0369228,
+    "lon": 10.9512017,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "petroglyph",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "neolithic painting",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1230779162,
+    "lat": 24.0580161,
+    "lon": 10.9626679,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "petroglyph",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "Place de Jean Claude",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1885264205,
+    "lat": 36.7525471,
+    "lon": 5.0854365,
+    "tags": {
+      "addr:city": "Béjaïa",
+      "addr:city:ar": "بجاية",
+      "addr:city:ber": "ⴲⴳⴰⵢⴻⵝ",
+      "addr:city:fr": "Béjaïa",
+      "addr:city:kab": "Bgayet",
+      "addr:postcode": "06000",
+      "addr:street": "شارع سي الحواس",
+      "addr:street:ar": "شارع سي الحواس",
+      "name": "Place Gueydon",
+      "name:ar": "ساحة غيدون",
+      "name:en": "Place Gueydon",
+      "name:etymology": "لويس هنري دي غيدون",
+      "name:etymology:wikidata": "Q3262167",
+      "name:etymology:wikipedia": "ar:لويس هنري دي جويدون",
+      "name:fr": "Place Gueydon",
+      "name:kab": "Amṛaḥ n Gueydon",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2476104378,
+    "lat": 36.2721943,
+    "lon": 6.725097,
+    "tags": {
+      "addr:city": "El Khroub",
+      "historic": "tomb",
+      "name": "Tombeau de Massinissa",
+      "name:ar": "ضريح ماسينيسا",
+      "name:en": "Massinissa Tomb",
+      "name:fr": "Tombeau de Massinissa",
+      "subject:wikidata": "Q314685",
+      "subject:wikipedia": "fr:Massinissa",
+      "tomb": "mausoleum",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2552961759,
+    "lat": 25.3078556,
+    "lon": 7.9622595,
+    "tags": {
+      "archaeological_site": "petroglyph",
+      "historic": "archaeological_site",
+      "name": "Ikadnouchere rock paintings",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2555992318,
+    "lat": 36.7394947,
+    "lon": 3.0197219,
+    "tags": {
+      "attraction": "animal",
+      "name": "أسود",
+      "name:ar": "أسود",
+      "name:en": "Lions",
+      "name:fr": "Lions",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2555992353,
+    "lat": 36.739974,
+    "lon": 3.0184908,
+    "tags": {
+      "attraction": "animal",
+      "name": "Ours",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2555992400,
+    "lat": 36.7498693,
+    "lon": 3.006437,
+    "tags": {
+      "attraction": "animal",
+      "name": "Elephants",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2555992457,
+    "lat": 36.7428284,
+    "lon": 3.0090655,
+    "tags": {
+      "attraction": "animal",
+      "name": "Les singes",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2555992484,
+    "lat": 36.7379513,
+    "lon": 3.0176486,
+    "tags": {
+      "attraction": "animal",
+      "name": "Tigres",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2555992505,
+    "lat": 36.7426285,
+    "lon": 3.0080704,
+    "tags": {
+      "attraction": "animal",
+      "name": "Cerf de Barbarie",
+      "name:ar": "الغزلان البربرية",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2556807602,
+    "lat": 36.7333174,
+    "lon": 3.0230014,
+    "tags": {
+      "name": "Le grand huit",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2571925549,
+    "lat": 25.1486739,
+    "lon": 8.5058441,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "petroglyph",
+      "description": "major rock engravings",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "Tin Taghirt",
+      "name:de": "Lockige Kuh von Tinterhert",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2571967441,
+    "lat": 25.1817879,
+    "lon": 8.4670728,
+    "tags": {
+      "name": "Guelta",
+      "name:ar": "قلتة",
+      "name:etymology": "قلتة",
+      "name:etymology:wikidata": "Q1553200",
+      "name:etymology:wikipedia": "ar:قلتة",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2571973796,
+    "lat": 25.3047725,
+    "lon": 8.1919873,
+    "tags": {
+      "name": "Chuttes d'eau",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2664792122,
+    "lat": 36.7319838,
+    "lon": 3.0218397,
+    "tags": {
+      "name": "Parc Jurjura",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2674659015,
+    "lat": 36.7391476,
+    "lon": 3.0179823,
+    "tags": {
+      "attraction": "animal",
+      "name": "Hippopotame",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2674659017,
+    "lat": 36.738427,
+    "lon": 3.0190682,
+    "tags": {
+      "attraction": "animal",
+      "name": "Aigles",
+      "name:ar": "نسر",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2674659018,
+    "lat": 36.7392949,
+    "lon": 3.0195,
+    "tags": {
+      "attraction": "animal",
+      "name": "Chameau",
+      "name:ar": "جمل",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2737382125,
+    "lat": 23.1992063,
+    "lon": 5.4503432,
+    "tags": {
+      "addr:city": "تمنراست",
+      "addr:city:ar": "تمنراست",
+      "description": "أحجار كبيرة بنقوش تيفيناغ",
+      "description:ar": "أحجار كبيرة بنقوش تيفيناغ",
+      "description:en": "big stones with tifinagh engraves",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2781427404,
+    "lat": 36.7485648,
+    "lon": 3.0738597,
+    "tags": {
+      "addr:city": "بلوزداد",
+      "addr:city:ar": "بلوزداد",
+      "fee": "yes",
+      "name": "الحديقة الفرنسية",
+      "name:ar": "الحديقة الفرنسية",
+      "name:fr": "Jardin français",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2781427418,
+    "lat": 36.7467315,
+    "lon": 3.0774806,
+    "tags": {
+      "addr:city": "بلوزداد",
+      "addr:city:ar": "بلوزداد",
+      "name": "الحديقة البريطانية",
+      "name:ar": "الحديقة البريطانية",
+      "name:en": "English Basin",
+      "name:fr": "Bassin Anglais",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3046318035,
+    "lat": 36.7919377,
+    "lon": 3.058541,
+    "tags": {
+      "name": "Place El Kettani",
+      "name:ar": "ساحة الكيتاني",
+      "name:fr": "Place El Kettani",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3265284801,
+    "lat": 36.5706105,
+    "lon": 5.2899922,
+    "tags": {
+      "name": "Cascade de Kefrida",
+      "name:ar": "شلال كفريدة",
+      "natural": "cliff",
+      "tourism": "attraction",
+      "waterway": "waterfall"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3413197096,
+    "lat": 36.3048116,
+    "lon": 2.2249737,
+    "tags": {
+      "historic": "tomb",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3413198704,
+    "lat": 36.302511,
+    "lon": 2.2271506,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3523360365,
+    "lat": 36.8762381,
+    "lon": 6.9097024,
+    "tags": {
+      "historic": "city_gate",
+      "name": "Bab Csantina",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3641546953,
+    "lat": 36.7364774,
+    "lon": 3.1600491,
+    "tags": {
+      "attraction": "big_wheel",
+      "name": "Grande roue",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3649038607,
+    "lat": 36.6930723,
+    "lon": 5.5235339,
+    "tags": {
+      "access": "permissive",
+      "fee": "yes",
+      "name": "La Grotte Merveilleuse",
+      "name:ar": "المغارة العجيبة",
+      "natural": "cave_entrance",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3684744837,
+    "lat": 36.7005249,
+    "lon": 5.5378961,
+    "tags": {
+      "access": "permissive",
+      "fee": "yes",
+      "name": "Ghar El Baz",
+      "name:ar": "غار الباز",
+      "name:en": "Ghar El Baz",
+      "name:fr": "Ghar El Baz",
+      "natural": "cave_entrance",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3811530464,
+    "lat": 36.4466521,
+    "lon": 2.8397784,
+    "tags": {
+      "addr:city": "Blida",
+      "addr:postcode": "09000",
+      "historic": "tomb",
+      "name": "Tombeau de Sidi Ahmed El Kebir",
+      "name:ar": "ضريح سيدي أحمد الكبير",
+      "name:fr": "Tombeau de Sidi Ahmed El Kebir",
+      "tomb": "mausoleum",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3813666091,
+    "lat": 36.1924381,
+    "lon": 5.4066868,
+    "tags": {
+      "attraction": "big_wheel",
+      "name": "دولاب هواء",
+      "name:ar": "دولاب هواء",
+      "name:de": "Großes Rad",
+      "name:es": "Gran Rueda",
+      "name:fr": "Grande Roue",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3813666092,
+    "lat": 36.1911485,
+    "lon": 5.4081971,
+    "tags": {
+      "attraction": "pirate_ship",
+      "name": "سفينة القراصنة",
+      "name:ar": "سفينة القراصنة",
+      "name:de": "Piratenschiff",
+      "name:es": "Barco Pirata",
+      "name:fr": "Bateau pirate",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3813666093,
+    "lat": 36.1920707,
+    "lon": 5.4076552,
+    "tags": {
+      "attraction": "train",
+      "name": "قطار",
+      "name:ar": "قطار",
+      "name:de": "Zug",
+      "name:es": "Tren",
+      "name:fr": "Train",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3813666094,
+    "lat": 36.192417,
+    "lon": 5.4076552,
+    "tags": {
+      "attraction": "carousel",
+      "name": "مرح الجولة",
+      "name:ar": "مرح الجولة",
+      "name:de": "Karussell",
+      "name:es": "Carrusel",
+      "name:fr": "Manège",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4085381690,
+    "lat": 36.7570052,
+    "lon": 5.0834379,
+    "tags": {
+      "historic": "ruins",
+      "historic:civilization": "roman",
+      "name": "Citernes Romaines",
+      "name:ar": "الصهاريج الرومانية",
+      "name:fr": "Citernes Romaines",
+      "ruins": "yes",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4105146508,
+    "lat": 36.7549671,
+    "lon": 5.0812591,
+    "tags": {
+      "historic": "city_gate",
+      "name": "Porte Fouka",
+      "name:ar": "باب الفوقا",
+      "name:fr": "Porte Fouka",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4109388756,
+    "lat": 35.8212149,
+    "lon": 4.7894088,
+    "tags": {
+      "description": "مئذنة المسجد",
+      "name": "Fort Beni Hammad",
+      "name:ar": "قلعة بني حماد",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4116711492,
+    "lat": 36.196364,
+    "lon": 5.3927348,
+    "tags": {
+      "name": "billiard",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4236730789,
+    "lat": 36.4402323,
+    "lon": 4.530179,
+    "tags": {
+      "addr:postcode": "06001",
+      "addr:street": "Bouzerouel",
+      "name": "Guerrouahene Omar",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4254276093,
+    "lat": 36.6899201,
+    "lon": 2.8037944,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4274571091,
+    "lat": 35.4012833,
+    "lon": 8.1173771,
+    "tags": {
+      "historic": "castle",
+      "name": "النسر الذهبي",
+      "name:ar": "النسر الذهبي",
+      "name:fr": "L'Aigle d'Or",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4279302044,
+    "lat": 36.814326,
+    "lon": 2.9800868,
+    "tags": {
+      "name": "La Fayette",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4311299492,
+    "lat": 36.8064943,
+    "lon": 2.9073034,
+    "tags": {
+      "name": "L'îlot",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4329226589,
+    "lat": 35.6270561,
+    "lon": -0.8938816,
+    "tags": {
+      "addr:street": "foret de msila",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4329760590,
+    "lat": 33.8550748,
+    "lon": 2.8655067,
+    "tags": {
+      "addr:postcode": "03000",
+      "addr:street": "P.Loisirs Merika",
+      "name": "Merikka",
+      "opening_hours": "Mo-Su 10:00-12:00",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4333722089,
+    "lat": 33.9017136,
+    "lon": 2.4740474,
+    "tags": {
+      "name": "باراج واد مزي",
+      "name:ar": "باراج واد مزي",
+      "name:fr": "Barrage Oued Mzi",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4382259790,
+    "lat": 34.6877606,
+    "lon": 3.2448006,
+    "tags": {
+      "addr:street": "Rue de la Gare",
+      "name": "مكان استراحة",
+      "name:ar": "مكان استراحة",
+      "name:en": "Break place",
+      "name:fr": "Break place",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4382568295,
+    "lat": 35.1178672,
+    "lon": 5.5997338,
+    "tags": {
+      "name": "بنات الخبزات",
+      "name:ar": "بنات الخبزات",
+      "name:fr": "Bnat al Khabazat",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4382572595,
+    "lat": 35.1253508,
+    "lon": 5.6105287,
+    "tags": {
+      "name": "القرية القديمة",
+      "name:ar": "عرعارات",
+      "name:en": "Old village",
+      "name:fr": "Ararat",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4382596490,
+    "lat": 35.1268186,
+    "lon": 5.6816054,
+    "tags": {
+      "name": "عين القط",
+      "name:ar": "عين القط",
+      "name:fr": "Ain Gat",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4399377896,
+    "lat": 35.8603665,
+    "lon": 0.6069441,
+    "tags": {
+      "name": "El Blaid (toumiate)",
+      "name:fr": "El Blaid (toumiate)",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4399541790,
+    "lat": 35.7823738,
+    "lon": 0.6263675,
+    "tags": {
+      "addr:street": "chtaounia",
+      "name": "الشتاونية",
+      "name:ar": "الشتاونية",
+      "name:fr": "chtaounia",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4399560894,
+    "lat": 36.7903459,
+    "lon": 3.5508971,
+    "tags": {
+      "name": "le grand bleu",
+      "name:fr": "le grand bleu",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4407133091,
+    "lat": 25.0286191,
+    "lon": 8.5567661,
+    "tags": {
+      "archaeological_site": "rock_painting",
+      "historic": "archaeological_site",
+      "name": "اللوحات الصخرية طاسيلي ناجر",
+      "name:ar": "اللوحات الصخرية طاسيلي ناجر",
+      "name:en": "Tassili N' Ajjer Rock Paintings",
+      "name:fr": "Peintures rupestres Tassili N' Ajjer",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4413961289,
+    "lat": 36.5198917,
+    "lon": 5.8539837,
+    "tags": {
+      "addr:postcode": "43036",
+      "addr:street": "Agarou",
+      "name": "Agarou",
+      "name:ar": "Agarou",
+      "phone": "0666633048",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4427342792,
+    "lat": 35.29682,
+    "lon": 6.6412216,
+    "tags": {
+      "name": "تيزي انيدقل",
+      "name:ar": "تيزي انيدقل",
+      "name:ber": "ⵜⵉⵣⵉ ⵏⵢⵉⴷⴳⴻⵍ",
+      "name:fr": "Tizi n Yidguel",
+      "name:kab": "Tizi nyidgel",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4500810404,
+    "lat": 36.0314396,
+    "lon": 3.9407316,
+    "tags": {
+      "name": "الڨناطر",
+      "name:ar": "الڨناطر",
+      "name:fr": "Gnater",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4504392089,
+    "lat": 24.6340274,
+    "lon": 9.1649249,
+    "tags": {
+      "name": "Djanet",
+      "name:ar": "جانت",
+      "name:en": "Djanet",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4515093190,
+    "lat": 36.4635775,
+    "lon": 7.4297276,
+    "tags": {
+      "name": "Car m",
+      "name:en": "Car m",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4519833989,
+    "lat": 36.6242369,
+    "lon": 2.4079912,
+    "tags": {
+      "name:ar": "كوشة الجير",
+      "name:en": "Koucha",
+      "name:fr": "Koucha",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4523153897,
+    "lat": 36.5862666,
+    "lon": 5.4414228,
+    "tags": {
+      "name": "Maison de jeunes",
+      "name:ar": "Maison de jeunes",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4529064838,
+    "lat": 24.835834,
+    "lon": 9.0520792,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4529064933,
+    "lat": 24.6611068,
+    "lon": 9.2551412,
+    "tags": {
+      "name": "Cave of a Baby",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4529064934,
+    "lat": 24.7881372,
+    "lon": 9.156047,
+    "tags": {
+      "name": "Canyon",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4529065004,
+    "lat": 24.6563684,
+    "lon": 9.258797,
+    "tags": {
+      "name": "La Theire, Rock Mushroom",
+      "name:fr": "La Theire",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4531754190,
+    "lat": 35.8091035,
+    "lon": 0.6575982,
+    "tags": {
+      "name": "Douar El kedadra",
+      "name:fr": "Douar El kedadra",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4535602993,
+    "lat": 36.6347927,
+    "lon": 7.0406581,
+    "tags": {
+      "name": "Babouria",
+      "name:fr": "Babouria",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4549374510,
+    "lat": 35.7540501,
+    "lon": 0.5759323,
+    "tags": {
+      "name": "Suidi",
+      "name:fr": "Suidi",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4561254989,
+    "lat": 36.7454017,
+    "lon": 3.0624018,
+    "tags": {
+      "addr:city": "المدنية",
+      "name": "جنان لخضر",
+      "name:ar": "جنان الأخضر",
+      "name:en": "Djnane Lakhder",
+      "name:fr": "Djnane Lakhder",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4569463925,
+    "lat": 32.3971192,
+    "lon": 3.1972326,
+    "tags": {
+      "name": "سيدي مناع",
+      "name:ar": "سيدي مناع",
+      "name:fr": "Sidi Manna",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4569469148,
+    "lat": 32.3944172,
+    "lon": 3.1975604,
+    "tags": {
+      "name": "مقام سيدي مناع",
+      "name:ar": "مقام سيدي مناع",
+      "name:fr": "Le sanctuaire de Sidi Manna",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4574487091,
+    "lat": 36.7708625,
+    "lon": 3.0209538,
+    "tags": {
+      "name": "Ne",
+      "name:ar": "Ne",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4577563491,
+    "lat": 31.1488447,
+    "lon": -2.5658305,
+    "tags": {
+      "name": "وار صفاية",
+      "name:ar": "وار صفاية",
+      "name:fr": "War Sfaya",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4589843190,
+    "lat": 34.7298401,
+    "lon": 5.385284,
+    "tags": {
+      "name": "ساحة عمومية",
+      "name:ar": "ساحة عمومية",
+      "name:fr": "Place publique",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4592079992,
+    "lat": 36.3098928,
+    "lon": 6.6024961,
+    "tags": {
+      "addr:housenumber": "25",
+      "addr:postcode": "25000",
+      "email": "ymahadil3031@gmail.com",
+      "name": "هشام",
+      "name:ar": "هشام",
+      "name:en": "Hichem",
+      "name:fr": "Hichem",
+      "phone": "0554262260",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4599445092,
+    "lat": 36.753257,
+    "lon": 2.9952865,
+    "tags": {
+      "addr:country": "DZ",
+      "amenity": "restaurant",
+      "name": "Chez âami Cherif",
+      "name:ar": "Resto ami chrif",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4602427597,
+    "lat": 36.830255,
+    "lon": 7.7226467,
+    "tags": {
+      "name": "Cite 800 log chahmi",
+      "name:fr": "Cite 800 log chahmi",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4607424599,
+    "lat": 35.5547748,
+    "lon": -0.4457739,
+    "tags": {
+      "addr:city": "وادي تليلات",
+      "name": "حديقة التسلية",
+      "name:ar": "حديقة التسلية",
+      "name:fr": "Parc d'attraction",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4637947041,
+    "lat": 36.1893325,
+    "lon": 5.4048867,
+    "tags": {
+      "addr:city": "سطيف",
+      "addr:city:ar": "سطيف",
+      "addr:street": "شارع 8 مايو 1945",
+      "addr:street:ar": "شارع 8 مايو 1945",
+      "alt_name": "عين فوارة",
+      "alt_name:ar": "عين فوارة",
+      "amenity": "fountain",
+      "drinking_water": "yes",
+      "name": "عين الفوارة",
+      "name:ar": "عين الفوارة",
+      "name:fr": "Aïn El Fouara",
+      "tourism": "attraction",
+      "wikidata": "Q3076109",
+      "wikimedia_commons": "Category:Ain El Fouara",
+      "wikipedia": "ar:نافورة عين الفوارة"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4639655289,
+    "lat": 36.7430448,
+    "lon": 2.9723982,
+    "tags": {
+      "name": "حديقة دنيا",
+      "name:ar": "حديقة دنيا",
+      "name:en": "Dounia Parc",
+      "name:fr": "Dounia Parc",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4665819499,
+    "lat": 35.9823599,
+    "lon": 0.2975454,
+    "tags": {
+      "addr:country": "DZ",
+      "amenity": "animal_breeding",
+      "name": "Pondeuses Benbedra",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4673666489,
+    "lat": 36.6947499,
+    "lon": 5.9089979,
+    "tags": {
+      "name": "الشكيرد",
+      "name:ar": "الشكيرد",
+      "name:fr": "Chkired",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4676978690,
+    "lat": 35.6596885,
+    "lon": 0.4000282,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4686265116,
+    "lat": 33.1123877,
+    "lon": 6.4552736,
+    "tags": {
+      "name": "مأكلات خفيفة وفواكه وخضر",
+      "name:ar": "مأكلات خفيفة وفواكه وخضر",
+      "name:fr": "Aliments légers, fruits et légumes",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4706661062,
+    "lat": 29.5612718,
+    "lon": 3.6984803,
+    "tags": {
+      "name": "مسدلي",
+      "name:ar": "مسدلي",
+      "name:fr": "Masdali",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4707287291,
+    "lat": 34.3719468,
+    "lon": 2.7025514,
+    "tags": {
+      "name": "بلدية الدويس",
+      "name:ar": "بلدية الدويس",
+      "name:fr": "Mairie Douis",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4711813091,
+    "lat": 36.6985981,
+    "lon": 3.1732486,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4715251890,
+    "lat": 36.7404196,
+    "lon": 4.3680911,
+    "tags": {
+      "name": "Imedjrouradh",
+      "name:ar": "إيمجروراض",
+      "name:fr": "Imedjrouradh",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4727097089,
+    "lat": 20.243159,
+    "lon": 6.5191507,
+    "tags": {
+      "name": "واد سكس",
+      "name:ar": "واد سكس",
+      "name:fr": "Oued Sax",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4727290696,
+    "lat": 36.4610281,
+    "lon": 7.4234842,
+    "tags": {
+      "name": "Centre de loisir scientifique",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4727738289,
+    "lat": 36.4634294,
+    "lon": 7.4365046,
+    "tags": {
+      "name": "Jeu des Boules",
+      "name:fr": "Jeu des Boules",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4730148889,
+    "lat": 32.621355,
+    "lon": 5.6003583,
+    "tags": {
+      "name": "محدادي أحمد",
+      "name:ar": "محدادي أحمد",
+      "name:fr": "Ahmed Mehdadi",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740370923,
+    "lat": 36.5058952,
+    "lon": 1.2356497,
+    "tags": {
+      "place": "island",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740370924,
+    "lat": 36.5055664,
+    "lon": 1.2383176,
+    "tags": {
+      "place": "island",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740370925,
+    "lat": 36.5057301,
+    "lon": 1.2380198,
+    "tags": {
+      "natural": "rock",
+      "place": "island",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740370926,
+    "lat": 35.6733198,
+    "lon": -1.0466077,
+    "tags": {
+      "name": "Îlot",
+      "name:ar": "Îlot",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740370928,
+    "lat": 35.2185109,
+    "lon": -1.632149,
+    "tags": {
+      "name": "Île",
+      "name:ar": "Île",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740370929,
+    "lat": 35.230753,
+    "lon": -1.608921,
+    "tags": {
+      "name": "Rocher",
+      "name:ar": "Rocher",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740392521,
+    "lat": 36.5448174,
+    "lon": 1.524677,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740392522,
+    "lat": 35.7305783,
+    "lon": -1.1218304,
+    "tags": {
+      "addr:city": "عين الكرمة",
+      "alt_name:ar": "أرخبيل حبيباس;أرخبيل هابيباس",
+      "name": "أرخبيل حبيباص",
+      "name:ar": "أرخبيل حبيباص",
+      "name:de": "Habibas-Archipel",
+      "name:fr": "Archipel Habibas",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740392523,
+    "lat": 35.5532111,
+    "lon": -1.1989655,
+    "tags": {
+      "name": "سبيعات",
+      "name:ar": "Île",
+      "name:en": "sbiat",
+      "name:fr": "sbiat",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740392524,
+    "lat": 35.5486506,
+    "lon": -1.199631,
+    "tags": {
+      "name": "Rocher",
+      "name:ar": "Rocher",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740392622,
+    "lat": 36.5540656,
+    "lon": 1.3656316,
+    "tags": {
+      "name": "Île",
+      "name:ar": "Île",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740392821,
+    "lat": 36.5408617,
+    "lon": 1.5299071,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740392822,
+    "lat": 36.5540067,
+    "lon": 1.3601226,
+    "tags": {
+      "name": "Île",
+      "name:ar": "Île",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740392823,
+    "lat": 36.4363985,
+    "lon": 0.9180793,
+    "tags": {
+      "name": "Île",
+      "name:ar": "Île",
+      "place": "island",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740392827,
+    "lat": 36.3297154,
+    "lon": 2.2705619,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740392828,
+    "lat": 36.5699728,
+    "lon": 1.8575756,
+    "tags": {
+      "name": "Île Sidi Brahim",
+      "name:ar": "Île Sidi Brahim",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4740393222,
+    "lat": 35.212454,
+    "lon": -1.6373575,
+    "tags": {
+      "name": "Île Agla",
+      "name:ar": "Île Agla",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750737725,
+    "lat": 36.8134301,
+    "lon": 3.2465363,
+    "tags": {
+      "name:fr": "Rusguinia",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750740321,
+    "lat": 29.3661418,
+    "lon": 0.3694318,
+    "tags": {
+      "name": "استصلاح بادريان",
+      "name:ar": "استصلاح بادريان",
+      "name:fr": "Istislah Badriane",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750740423,
+    "lat": 36.8118176,
+    "lon": 3.258946,
+    "tags": {
+      "name:fr": "El-Marsa",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750740523,
+    "lat": 36.6001289,
+    "lon": 2.5900439,
+    "tags": {
+      "addr:city": "عين تقورايت",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750740524,
+    "lat": 36.5965954,
+    "lon": 2.5744207,
+    "tags": {
+      "name": "شبه جزيرة تاقوريت",
+      "name:ar": "شبه جزيرة تاقوريت",
+      "name:fr": "Presqu'île Tagourait",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750740525,
+    "lat": 36.8147583,
+    "lon": 3.2405124,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750740527,
+    "lat": 36.8144237,
+    "lon": 3.2425643,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750740528,
+    "lat": 36.7869955,
+    "lon": 3.0692116,
+    "tags": {
+      "name": "سيدي براهيم البحري",
+      "name:fr": "Sidi Braham El-Bahri",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750740621,
+    "lat": 36.8153767,
+    "lon": 3.2402662,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750740622,
+    "lat": 36.8136122,
+    "lon": 3.2456749,
+    "tags": {
+      "name:fr": "Rusguinia",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750740623,
+    "lat": 36.814117,
+    "lon": 3.2445567,
+    "tags": {
+      "name:fr": "Rusguinia",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750740624,
+    "lat": 36.7684342,
+    "lon": 3.4767744,
+    "tags": {
+      "addr:city": "بومرداس",
+      "addr:city:ar": "بومرداس",
+      "name": "Presqu'île Rocher Noire",
+      "name:ar": "شبه الجزيرة الحجر الأسود",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4750740627,
+    "lat": 36.8944854,
+    "lon": 4.7690837,
+    "tags": {
+      "name:fr": "Sigli",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4754439623,
+    "lat": 35.6484313,
+    "lon": -0.9714214,
+    "tags": {
+      "name": "烧烤树林",
+      "name:ar": "烧烤树林",
+      "name:fr": "Bois de barbecue",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688925,
+    "lat": 36.8930757,
+    "lon": 4.7892563,
+    "tags": {
+      "name:fr": "Sigli 1",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688926,
+    "lat": 36.8939192,
+    "lon": 4.7903261,
+    "tags": {
+      "name:fr": "Sigli 2",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688927,
+    "lat": 36.8939922,
+    "lon": 4.7898238,
+    "tags": {
+      "name:fr": "Sigli4",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688928,
+    "lat": 36.8155277,
+    "lon": 4.9782676,
+    "tags": {
+      "name:fr": "Djerba1",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688929,
+    "lat": 36.8156631,
+    "lon": 4.9759781,
+    "tags": {
+      "name:fr": "Djerba3",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688930,
+    "lat": 36.7323573,
+    "lon": 5.5507457,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688931,
+    "lat": 36.733267,
+    "lon": 5.5491647,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688932,
+    "lat": 36.8027418,
+    "lon": 5.6548799,
+    "tags": {
+      "name:fr": "Rocher cavallo",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688933,
+    "lat": 36.8194278,
+    "lon": 5.6920989,
+    "tags": {
+      "name:fr": "Afia1",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688934,
+    "lat": 36.8197104,
+    "lon": 5.6931665,
+    "tags": {
+      "name:fr": "Afia 2",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688935,
+    "lat": 36.8211573,
+    "lon": 5.6922361,
+    "tags": {
+      "name:fr": "Afia 3",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688936,
+    "lat": 36.8197116,
+    "lon": 5.7046654,
+    "tags": {
+      "name:fr": "Crique1",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688937,
+    "lat": 36.8211133,
+    "lon": 5.7091735,
+    "tags": {
+      "name:fr": "Crique 4",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688938,
+    "lat": 36.8234302,
+    "lon": 5.7278567,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688939,
+    "lat": 36.9546629,
+    "lon": 6.2614893,
+    "tags": {
+      "name:fr": "Oued Zehour",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688940,
+    "lat": 37.0554893,
+    "lon": 6.5458678,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688941,
+    "lat": 36.9726104,
+    "lon": 7.6815086,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688942,
+    "lat": 37.0792003,
+    "lon": 7.2891645,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688943,
+    "lat": 37.0780228,
+    "lon": 7.2841171,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688944,
+    "lat": 37.0874761,
+    "lon": 7.2323245,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688945,
+    "lat": 37.0927569,
+    "lon": 7.2047186,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756688946,
+    "lat": 37.0933338,
+    "lon": 7.2038919,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756738423,
+    "lat": 36.8160132,
+    "lon": 4.976998,
+    "tags": {
+      "name": "Djerba 2",
+      "name:ar": "جربة 2",
+      "name:en": "Djerba 2",
+      "name:fr": "Djerba 2",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756738424,
+    "lat": 36.8185314,
+    "lon": 5.6885514,
+    "tags": {
+      "name:fr": "Ras Al-Afia",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756738425,
+    "lat": 36.7820601,
+    "lon": 5.6278794,
+    "tags": {
+      "name:fr": "Rocher",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756738426,
+    "lat": 36.8239085,
+    "lon": 5.7312849,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756738428,
+    "lat": 37.0409703,
+    "lon": 7.4250843,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756738429,
+    "lat": 37.0839787,
+    "lon": 7.1828465,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756743121,
+    "lat": 36.8938314,
+    "lon": 4.7882158,
+    "tags": {
+      "name:fr": "Sigli3",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756743122,
+    "lat": 36.8255028,
+    "lon": 4.9976884,
+    "tags": {
+      "addr:city": "Boulimat",
+      "addr:city:ar": "بوليماط",
+      "name": "Boulimat archipel",
+      "name:ar": "أرخبيل بوليماط",
+      "name:en": "Boulimat archipelago",
+      "name:fr": "Boulimat archipel",
+      "place": "archipelago",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756743123,
+    "lat": 36.7328537,
+    "lon": 5.5499095,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756743124,
+    "lat": 36.8225616,
+    "lon": 5.7097947,
+    "tags": {
+      "name:fr": "Crique 5",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756743125,
+    "lat": 36.9875901,
+    "lon": 6.2368968,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756743126,
+    "lat": 37.0410227,
+    "lon": 7.4266151,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756743127,
+    "lat": 37.0828913,
+    "lon": 7.1768522,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756744321,
+    "lat": 36.8220632,
+    "lon": 5.6931751,
+    "tags": {
+      "name:fr": "Afia 3",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756744323,
+    "lat": 36.783892,
+    "lon": 5.6306281,
+    "tags": {
+      "name:fr": "Rocher",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756744324,
+    "lat": 36.8210988,
+    "lon": 5.7067136,
+    "tags": {
+      "name:fr": "Crique 3",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756744325,
+    "lat": 37.0315016,
+    "lon": 6.5424686,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756744326,
+    "lat": 37.0549532,
+    "lon": 7.3901071,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756744328,
+    "lat": 37.0919238,
+    "lon": 7.1965535,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756744329,
+    "lat": 37.0847195,
+    "lon": 7.1832492,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756744330,
+    "lat": 37.0826662,
+    "lon": 7.178639,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4756744621,
+    "lat": 36.8204586,
+    "lon": 5.7060365,
+    "tags": {
+      "name:fr": "Crique 2",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4758454233,
+    "lat": 34.8488601,
+    "lon": -1.7239339,
+    "tags": {
+      "addr:city": "مغنية",
+      "addr:city:ar": "مغنية",
+      "addr:description": "وسط المدينة",
+      "addr:description:ar": "وسط المدينة",
+      "alt_name": "ساحة افريقيا;ساحة إفريقيا",
+      "alt_name:ar": "ساحة افريقيا;ساحة إفريقيا",
+      "name": "ساحة أفريقيا",
+      "name:ar": "ساحة أفريقيا",
+      "name:fr": "Place de l'Afrique",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4759420629,
+    "lat": 34.3386984,
+    "lon": 4.9558634,
+    "tags": {
+      "addr:street": "حلوفة. سيدي خالد",
+      "name": "مزرعة عبد الجبار قميدة",
+      "name:ar": "مزرعة عبد الجبار قميدة",
+      "name:fr": "Ferme Abdul-Jabbar Qameeda",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4767094222,
+    "lat": 34.7274331,
+    "lon": 5.3810062,
+    "tags": {
+      "name": "Place publique",
+      "name:ar": "Place publique",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4778177269,
+    "lat": 32.7032251,
+    "lon": 5.4222396,
+    "tags": {
+      "name:fr": "Al-Alia",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4778180172,
+    "lat": 32.7231326,
+    "lon": 5.4342616,
+    "tags": {
+      "name:fr": "Al-Alia ZH",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4778180173,
+    "lat": 32.9292136,
+    "lon": 5.5155644,
+    "tags": {
+      "name:fr": "Chegga",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4778180174,
+    "lat": 24.5384871,
+    "lon": 9.4811337,
+    "tags": {
+      "addr:city": "جانت",
+      "name": "جانت",
+      "name:ar": "جانت",
+      "name:en": "Djanet",
+      "name:fr": "Djanet",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4778180176,
+    "lat": 29.3526015,
+    "lon": 0.3263569,
+    "tags": {
+      "name": "الاشماس",
+      "name:ar": "الاشماس",
+      "name:fr": "Lachmas",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4778180541,
+    "lat": 32.0428512,
+    "lon": 5.3941357,
+    "tags": {
+      "name:fr": "Chott Oum Erraneb",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4778180542,
+    "lat": 26.9151265,
+    "lon": 1.4982298,
+    "tags": {
+      "addr:city": "تيط",
+      "alt_name": "سبخة تيت",
+      "alt_name:ar": "سبخة تيت",
+      "name": "سبخة تيط",
+      "name:ar": "سبخة تيط",
+      "name:fr": "Sebkha de Tit",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4778180543,
+    "lat": 27.0697819,
+    "lon": 1.9248078,
+    "tags": {
+      "addr:city": "عين غار",
+      "addr:street": "حي الزاوية",
+      "name": "زاوية",
+      "name:ar": "زاوية",
+      "name:fr": "Zaouia",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4785094523,
+    "lat": 22.7979513,
+    "lon": 5.5190104,
+    "tags": {
+      "addr:city": "تمنراست",
+      "addr:street": "شارع الحماية المدنية",
+      "name": "مقهى إنترنت",
+      "name:ar": "مقهى إنترنت",
+      "name:en": "cyber cafe",
+      "name:fr": "cyber cafe",
+      "opening_hours": "24/7",
+      "phone": "0666575805",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4787379921,
+    "lat": 27.6572456,
+    "lon": -8.1225996,
+    "tags": {
+      "addr:city": "تندوف",
+      "addr:city:ar": "تندوف",
+      "addr:neighbourhood": "حي النهضة",
+      "addr:neighbourhood:ar": "حي النهضة",
+      "diet:halal": "yes",
+      "language:ar": "main",
+      "name": "مقهى مفترق الطرق النهضة",
+      "name:ar": "مقهى مفترق الطرق النهضة",
+      "name:fr": "Café Nahda",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4797439624,
+    "lat": 27.6205984,
+    "lon": -0.3129781,
+    "tags": {
+      "addr:city": "قصبة لحرار",
+      "addr:postcode": "000100",
+      "name": "قصبة لحرار",
+      "name:ar": "قصبة لحرار",
+      "name:fr": "Kasbat Al Ahrar",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4797439625,
+    "lat": 27.6216463,
+    "lon": -0.314744,
+    "tags": {
+      "addr:city": "قصبة لحرار",
+      "addr:housenumber": "213",
+      "addr:postcode": "00100",
+      "email": "abbas.dlim@yahoo.com",
+      "name": "قصبة لحرار",
+      "name:ar": "قصبة لحرار",
+      "name:en": "Kassbet Lahrar, Algeria",
+      "name:fr": "Kasbat Al Ahrar",
+      "opening_hours": "24/7",
+      "phone": "0664828271",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4798706022,
+    "lat": 27.7810954,
+    "lon": -0.2344457,
+    "tags": {
+      "name": "غزي",
+      "name:ar": "غزي",
+      "name:en": "Gouzi",
+      "name:fr": "Gouzi",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4798706322,
+    "lat": 27.7397929,
+    "lon": -0.2707913,
+    "tags": {
+      "name": "توكي",
+      "name:ar": "توكي",
+      "name:en": "Toukki",
+      "name:fr": "Toukki",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4798706323,
+    "lat": 27.8022988,
+    "lon": -0.2533873,
+    "tags": {
+      "name": "زاوية سيد البكري",
+      "name:ar": "زاوية سيد البكري",
+      "name:en": "Zawiet sid albakri",
+      "name:fr": "Zaouia sid bekri",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4798706521,
+    "lat": 27.747206,
+    "lon": -0.2318596,
+    "tags": {
+      "name": "اوﻻد حاج المامون",
+      "name:ar": "اوﻻد حاج المامون",
+      "name:en": "Olad hdje almamoune",
+      "name:fr": "Ouled Hadj Mamoun",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4804307803,
+    "lat": 33.3624831,
+    "lon": 6.8651748,
+    "tags": {
+      "addr:city": "الوادي",
+      "addr:city:ar": "الوادي",
+      "name": "مدخل السوق الوادي",
+      "name:ar": "مدخل السوق الوادي",
+      "name:en": "Marché El oued",
+      "name:fr": "Entrée du marché",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4805793122,
+    "lat": 32.4736489,
+    "lon": 3.7448504,
+    "tags": {
+      "historic": "tomb",
+      "name": "Mausolée Sidi Brahim",
+      "name:ar": "ضريح آمي ابراهيم",
+      "name:fr": "Mausolée Sidi Brahim",
+      "name:it": "Mausoleo Sidi Ibrahim",
+      "tomb": "mausoleum",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4809557146,
+    "lat": 22.822955,
+    "lon": 5.2438073,
+    "tags": {
+      "name": "قرية اهلفن",
+      "name:ar": "قرية اهلفن",
+      "name:en": "Ihilfan",
+      "name:fr": "Ihilfan",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4821576422,
+    "lat": 36.731997,
+    "lon": 3.250945,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4838543821,
+    "lat": 36.7562198,
+    "lon": 3.0285827,
+    "tags": {
+      "addr:city": "حيدرة",
+      "name": "غرفة الهروب",
+      "name:ar": "غرفة الهروب",
+      "name:en": "escape room",
+      "name:fr": "salle d'évasion",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4840147423,
+    "lat": 32.4295339,
+    "lon": 3.7047896,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4846738023,
+    "lat": 35.6771325,
+    "lon": -0.6800568,
+    "tags": {
+      "name": "كشك",
+      "name:ar": "كشك",
+      "name:fr": "Kiosque",
+      "shop": "copyshop",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4868108421,
+    "lat": 37.0397468,
+    "lon": 6.3083187,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4868279223,
+    "lat": 36.3603678,
+    "lon": 6.6064707,
+    "tags": {
+      "addr:city": "قسنطينة",
+      "addr:city:ar": "قسنطينة",
+      "addr:street": "ساحة عميروش",
+      "addr:street:ar": "ساحة عميروش",
+      "name": "الهرم",
+      "name:ar": "الهرم",
+      "name:fr": "la pyramide",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4876206123,
+    "lat": 36.703043,
+    "lon": 4.045598,
+    "tags": {
+      "name:fr": "Passerelle",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4885144821,
+    "lat": 36.7430384,
+    "lon": 3.1197201,
+    "tags": {
+      "attraction": "big_wheel",
+      "name": "La Grande roue",
+      "name:ar": "العجلة الكبيرة",
+      "name:fr": "La Grande roue",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4919173621,
+    "lat": 35.4214599,
+    "lon": 8.114876,
+    "tags": {
+      "addr:city": "تبسة",
+      "addr:city:ar": "تبسة",
+      "name": "حظيرة التسلية طريق عنابة",
+      "name:ar": "حظيرة التسلية طريق عنابة",
+      "name:fr": "Parc d'attraction TÉBESSA",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4951866323,
+    "lat": 35.3035702,
+    "lon": 5.3641232,
+    "tags": {
+      "addr:street": "طريق اولاد عيش",
+      "name": "مزرعة محمود بوطي (سيرو)",
+      "name:ar": "مزرعة محمود بوطي (سيرو)",
+      "name:fr": "Mahmoud Bouti",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4953837227,
+    "lat": 36.7242673,
+    "lon": 3.0610657,
+    "tags": {
+      "name": "les iris",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4958367621,
+    "lat": 34.5540596,
+    "lon": 7.3325028,
+    "tags": {
+      "name": "موقعي",
+      "name:ar": "موقعي",
+      "name:fr": "Mawqi3i",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4978250021,
+    "lat": 37.0654955,
+    "lon": 7.3300846,
+    "tags": {
+      "name": "الكاف الواعر",
+      "name:ar": "الكاف الواعر",
+      "name:fr": "Kaf el Waar",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5011313421,
+    "lat": 35.2775042,
+    "lon": 6.1339291,
+    "tags": {
+      "name:fr": "Vers Nirdhi",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5011313522,
+    "lat": 35.2693179,
+    "lon": 6.1015334,
+    "tags": {
+      "name:fr": "Khebraz",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5011313622,
+    "lat": 35.2706113,
+    "lon": 6.099398,
+    "tags": {
+      "name:fr": "Timmaouine",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5011313624,
+    "lat": 35.2531311,
+    "lon": 6.0759668,
+    "tags": {
+      "name:fr": "Aloud yaha",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5011313627,
+    "lat": 35.2677766,
+    "lon": 6.1146043,
+    "tags": {
+      "name:fr": "Alouss",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5011313721,
+    "lat": 35.2658897,
+    "lon": 6.1040785,
+    "tags": {
+      "name:fr": "Aguelzim",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5011333725,
+    "lat": 35.2722137,
+    "lon": 6.061203,
+    "tags": {
+      "name:fr": "Azilal",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5011334522,
+    "lat": 35.2850824,
+    "lon": 6.0949201,
+    "tags": {
+      "name:fr": "Tnazeft",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5011334523,
+    "lat": 35.2612429,
+    "lon": 6.0414112,
+    "tags": {
+      "name:fr": "Tnoughist",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5034847521,
+    "lat": 35.7748624,
+    "lon": -0.7962054,
+    "tags": {
+      "addr:city": "Cap Falcon رأس فالكون",
+      "addr:city:ar": "رأس فالكون",
+      "addr:city:es": "Cabo Falcón",
+      "name": "Isla de Ratas جزيرة الفئران",
+      "name:ar": "جزيرة الفئران",
+      "name:es": "Isla de Ratas",
+      "name:fr": "l'Ile au Rat",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5035674621,
+    "lat": 36.890427,
+    "lon": 8.4401485,
+    "tags": {
+      "addr:city": "القالة",
+      "addr:city:ar": "القالة",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5068395726,
+    "lat": 35.9615907,
+    "lon": 0.9162258,
+    "tags": {
+      "name:fr": "H GAMES",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5124206923,
+    "lat": 33.3688549,
+    "lon": 7.6809358,
+    "tags": {
+      "name": "لزهر قسومه",
+      "name:ar": "لزهر قسومه",
+      "name:fr": "Lazhar Kassouma",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5128509525,
+    "lat": 36.8915786,
+    "lon": 7.7280283,
+    "tags": {
+      "name": "Risidance el hana",
+      "name:ar": "Risidance el hana",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5137490922,
+    "lat": 36.6628465,
+    "lon": 5.4478819,
+    "tags": {
+      "name:fr": "Accroches(peche au bar)",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5166821621,
+    "lat": 37.0048073,
+    "lon": 6.5722701,
+    "tags": {
+      "name:fr": "Port de pêche collo",
+      "name:signed": "no",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5187123023,
+    "lat": 36.3800815,
+    "lon": 7.7648096,
+    "tags": {
+      "name": "المركز الثقافي عبد الحميد بن باديس",
+      "name:ar": "المركز الثقافي عبد الحميد بن باديس",
+      "name:fr": "Centre culturel Abdelhamid Ibn Badis",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5190844922,
+    "lat": 23.1581796,
+    "lon": 5.7236439,
+    "tags": {
+      "name": "Porte de jonction",
+      "name:en": "Junction Gate",
+      "name:fr": "Porte de jonction",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5190844923,
+    "lat": 23.238191,
+    "lon": 5.5370121,
+    "tags": {
+      "name": "Cave",
+      "name:en": "Cave",
+      "name:fr": "Cave",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5190869721,
+    "lat": 23.2518511,
+    "lon": 5.5817299,
+    "tags": {
+      "name": "Jonction avec le mont Tahat",
+      "name:en": "Junction to Mount Tahat",
+      "name:fr": "Jonction avec le mont Tahat",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5195861826,
+    "lat": 35.3090198,
+    "lon": -1.174859,
+    "tags": {
+      "addr:city": "سيدي بن عدة",
+      "addr:postcode": "46013",
+      "name": "حي دوار شافع",
+      "name:ar": "حي دوار شافع",
+      "name:fr": "Cite Douar Chafaa",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5195861830,
+    "lat": 35.3046072,
+    "lon": -1.1805196,
+    "tags": {
+      "name": "ساحة البيطنك",
+      "name:ar": "ساحة البيطنك",
+      "name:fr": "Champs de Boule",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5198759323,
+    "lat": 36.2477678,
+    "lon": 6.7165524,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5210525822,
+    "lat": 30.581172,
+    "lon": 2.8810659,
+    "tags": {
+      "name": "فروض",
+      "name:ar": "فروض",
+      "name:fr": "Froudh",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5213140467,
+    "lat": 32.8622427,
+    "lon": 0.0193314,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5240204921,
+    "lat": 31.9633467,
+    "lon": 5.3863717,
+    "tags": {
+      "name": "بن الشيخ محمود",
+      "name:ar": "بن الشيخ محمود",
+      "name:fr": "Ben echekh mahmoud",
+      "phone": "+2130669145307",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5256732121,
+    "lat": 32.7631976,
+    "lon": 0.5773135,
+    "tags": {
+      "name": "بلاصة زيحوف",
+      "name:ar": "بلاصة زيحوف",
+      "name:fr": "Plaque de Zihouf",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5256732321,
+    "lat": 32.7642281,
+    "lon": 0.576575,
+    "tags": {
+      "name": "ضاية زيحوف",
+      "name:ar": "ضاية زيحوف",
+      "name:fr": "Dhayet Zihouf",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5283393826,
+    "lat": 36.8796713,
+    "lon": 6.9050962,
+    "tags": {
+      "name": "مسرح روماني",
+      "name:fr": "théâtre romain",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5301951835,
+    "lat": 35.2144078,
+    "lon": 4.18213,
+    "tags": {
+      "name": "المامين",
+      "name:ar": "المامين",
+      "name:fr": "Almamin",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5301952526,
+    "lat": 35.2142251,
+    "lon": 4.1818371,
+    "tags": {
+      "name": "باب ساحة الشهداء",
+      "name:ar": "باب ساحة الشهداء",
+      "name:fr": "Porte de la place des Martyrs",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5304746324,
+    "lat": 32.5254319,
+    "lon": 4.7411938,
+    "tags": {
+      "name": "حنية واد النساء",
+      "name:ar": "حنية واد النساء",
+      "name:fr": "Hanya Oued N'sa",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5320874324,
+    "lat": 35.8157483,
+    "lon": 0.1021213,
+    "tags": {
+      "name": "أولاد حمدان",
+      "name:ar": "أولاد حمدان",
+      "name:en": "ouled hamdan",
+      "name:fr": "Ouled Hamdan",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5320874422,
+    "lat": 35.8122694,
+    "lon": 0.102938,
+    "tags": {
+      "name": "كاب",
+      "name:ar": "كاب",
+      "name:en": "Cab",
+      "name:fr": "Cab",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5327764221,
+    "lat": 35.7318748,
+    "lon": 0.5657471,
+    "tags": {
+      "name": "Espace vert",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5349078121,
+    "lat": 34.8348173,
+    "lon": 0.154032,
+    "tags": {
+      "addr:postcode": "20000",
+      "addr:street": "شارع أحمد مدغري",
+      "name": "بعليلو ڨايم زون",
+      "name:ar": "بعليلو ڨايم زون",
+      "name:en": "Baalilou Game Zone",
+      "name:fr": "Baalilou Game Zone",
+      "opening_hours": "24/7",
+      "phone": "0776178654",
+      "tourism": "attraction",
+      "website": "http://facbook.com/kadaribenali"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5367858921,
+    "lat": 32.78749,
+    "lon": 6.051648,
+    "tags": {
+      "addr:street": "جنوب القوق",
+      "name": "بئر الذغيمة",
+      "name:ar": "بئر الذغيمة",
+      "name:fr": "Bir Deghima",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5407408356,
+    "lat": 36.4963849,
+    "lon": 4.281433,
+    "tags": {
+      "description": "source natirelle d'eau chaude thérapeutique",
+      "name": "Tala melulen",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5421219321,
+    "lat": 32.2925442,
+    "lon": 8.0672058,
+    "tags": {
+      "name": "برج الغرافة",
+      "name:ar": "برج الغرافة",
+      "name:fr": "Burj al Gharafa",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5422702021,
+    "lat": 32.0770762,
+    "lon": 5.1492764,
+    "tags": {
+      "name": "عرق ملالة",
+      "name:ar": "عرق ملالة",
+      "name:fr": "Erg Melalla",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5422702221,
+    "lat": 32.0518092,
+    "lon": 5.2124004,
+    "tags": {
+      "name": "اللبيب",
+      "name:ar": "اللبيب",
+      "name:fr": "al Labib",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5468885421,
+    "lat": 22.3031002,
+    "lon": 6.1849455,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5468885422,
+    "lat": 22.802161,
+    "lon": 5.5314481,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5472611822,
+    "lat": 34.7260698,
+    "lon": 5.3874749,
+    "tags": {
+      "name:fr": "Embalage",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5515252521,
+    "lat": 35.736567,
+    "lon": -0.3828406,
+    "tags": {
+      "name": "بحيرة التيلامين",
+      "name:ar": "بحيرة التيلامين",
+      "name:fr": "Lac de Télamine",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5523923721,
+    "lat": 36.1681043,
+    "lon": 5.2925348,
+    "tags": {
+      "name": "عالق في ثلج",
+      "name:ar": "عالق في ثلج",
+      "name:fr": "CN",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5524203823,
+    "lat": 36.3804828,
+    "lon": 6.6184774,
+    "tags": {
+      "name": "تمثال سيدة السلام",
+      "name:ar": "تمثال سيدة السلام",
+      "name:fr": "Notre dame de paix",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5546313121,
+    "lat": 36.7635921,
+    "lon": 4.1156428,
+    "tags": {
+      "name:fr": "Ait khelfats",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5574554121,
+    "lat": 36.7677811,
+    "lon": 2.9668734,
+    "tags": {
+      "name:fr": "Nid d ange",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5593343722,
+    "lat": 36.2904116,
+    "lon": 5.6110884,
+    "tags": {
+      "name": "القرية الفلاحية",
+      "name:ar": "القرية الفلاحية",
+      "name:en": "Village de ferme",
+      "name:fr": "Village de ferme",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5598499521,
+    "lat": 35.9653318,
+    "lon": 0.0929573,
+    "tags": {
+      "addr:street": "vers sidi medjdoub",
+      "name": "شاطئ سيدي مجذوب",
+      "name:ar": "شاطئ سيدي مجذوب",
+      "name:fr": "Plage sidi medjdoub",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5604877024,
+    "lat": 36.2543146,
+    "lon": 5.6476109,
+    "tags": {
+      "name": "الحلوفة",
+      "name:ar": "الحلوفة",
+      "name:en": "Al HALOUFA",
+      "name:fr": "Al HALOUFA",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5619253223,
+    "lat": 34.5369867,
+    "lon": 2.8623302,
+    "tags": {
+      "name": "مريفيعة",
+      "name:ar": "مريفيعة",
+      "name:fr": "Murifaa",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5653895422,
+    "lat": 21.4386828,
+    "lon": 6.3972013,
+    "tags": {
+      "alt_name": "تقريرة",
+      "alt_name:ar": "تقريرة",
+      "name": "مغارة تقريرة",
+      "name:ar": "مغارة تقريرة",
+      "name:en": "Tagrira",
+      "name:fr": "Tagrira",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5672922528,
+    "lat": 27.3376031,
+    "lon": -0.2331805,
+    "tags": {
+      "addr:city": "زاوية كنتة",
+      "name": "مكيد",
+      "name:ar": "مكيد",
+      "name:en": "Makki",
+      "name:fr": "Makid",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5675982822,
+    "lat": 35.0831459,
+    "lon": -2.2024114,
+    "tags": {
+      "addr:city": "مرسى بن مهيدي",
+      "email": "abdou7720@gamil.com",
+      "name": "منظمة أطفال بارك",
+      "name:ar": "منظمة أطفال بارك",
+      "name:fr": "Parc pour Enfants",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5684388823,
+    "lat": 32.0144982,
+    "lon": 5.4574313,
+    "tags": {
+      "name": "Palmier 1",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5684394823,
+    "lat": 32.0144409,
+    "lon": 5.4582386,
+    "tags": {
+      "name": "Palmier 3",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5684440721,
+    "lat": 32.0141933,
+    "lon": 5.458005,
+    "tags": {
+      "name": "Palmier 2",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5684457735,
+    "lat": 32.0203534,
+    "lon": 5.4690998,
+    "tags": {
+      "name": "Palmerie 4",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5684512321,
+    "lat": 32.0282918,
+    "lon": 5.4605266,
+    "tags": {
+      "name": "Palmerie 4",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5688872023,
+    "lat": 35.7009891,
+    "lon": -0.6444608,
+    "tags": {
+      "name:fr": "Salle des jeux PS4",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5719737923,
+    "lat": 32.3506822,
+    "lon": 5.4315489,
+    "tags": {
+      "name": "Palmier 2-2",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5719753122,
+    "lat": 32.34548,
+    "lon": 5.428755,
+    "tags": {
+      "name": "Palmerie 2-1",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5719774621,
+    "lat": 32.3506733,
+    "lon": 5.4316748,
+    "tags": {
+      "name": "Palmier 2-3",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5719774622,
+    "lat": 32.3507585,
+    "lon": 5.4316419,
+    "tags": {
+      "name": "Palmier 2-4",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5719837821,
+    "lat": 32.3527555,
+    "lon": 5.4317188,
+    "tags": {
+      "name": "Palmiers 2-5",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5719859121,
+    "lat": 32.350764,
+    "lon": 5.4317678,
+    "tags": {
+      "name": "Palmier 2-6",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5719859421,
+    "lat": 32.350753,
+    "lon": 5.4318605,
+    "tags": {
+      "name": "Palmier 2-7",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5720038821,
+    "lat": 32.3470975,
+    "lon": 5.4280555,
+    "tags": {
+      "name": "Palmiers 2-8",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5720038822,
+    "lat": 32.0677146,
+    "lon": 5.2978928,
+    "tags": {
+      "name": "Palmiers 2-9",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5720117522,
+    "lat": 31.9895484,
+    "lon": 5.2914599,
+    "tags": {
+      "name": "2-10",
+      "name:ar": "2-10",
+      "tourism": "attraction",
+      "trees": "palm_trees"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5720151322,
+    "lat": 31.9855361,
+    "lon": 5.2937013,
+    "tags": {
+      "name": "2-11",
+      "name:ar": "2-11",
+      "tourism": "attraction",
+      "trees": "palm_trees"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722419223,
+    "lat": 31.9849512,
+    "lon": 5.2932157,
+    "tags": {
+      "name": "2-12",
+      "name:ar": "2-12",
+      "tourism": "attraction",
+      "trees": "palm_trees"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722455422,
+    "lat": 32.0190928,
+    "lon": 5.4621973,
+    "tags": {
+      "name": "Palmier 3-1",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722474022,
+    "lat": 32.0241627,
+    "lon": 5.4596931,
+    "tags": {
+      "name": "Palmier 3-2",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722496021,
+    "lat": 32.0240004,
+    "lon": 5.4597321,
+    "tags": {
+      "name": "Palmier 3-3",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722503922,
+    "lat": 32.0257194,
+    "lon": 5.456856,
+    "tags": {
+      "name": "Palmiers 3-5",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722518721,
+    "lat": 32.0253723,
+    "lon": 5.4591697,
+    "tags": {
+      "name": "Palmiers 3-4",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722583122,
+    "lat": 32.0255006,
+    "lon": 5.4573846,
+    "tags": {
+      "name": "Palmier 3-9",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722590225,
+    "lat": 32.0248946,
+    "lon": 5.4569868,
+    "tags": {
+      "name": "Palmier 3-7",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722591428,
+    "lat": 32.0294277,
+    "lon": 5.4566268,
+    "tags": {
+      "name": "Palmier 3-8",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722597223,
+    "lat": 32.025647,
+    "lon": 5.4557935,
+    "tags": {
+      "name": "Palmier 3-7",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722725123,
+    "lat": 32.0234623,
+    "lon": 5.4569132,
+    "tags": {
+      "name": "Palmier 3-10 + 11",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722758024,
+    "lat": 32.0189854,
+    "lon": 5.4589097,
+    "tags": {
+      "name": "Palmier 3-15",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722758025,
+    "lat": 32.0182113,
+    "lon": 5.4614202,
+    "tags": {
+      "name": "Palmier 3-16",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722843826,
+    "lat": 32.0139421,
+    "lon": 5.4641878,
+    "tags": {
+      "name": "Palmier 3-17",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722856523,
+    "lat": 32.0138311,
+    "lon": 5.4640791,
+    "tags": {
+      "name": "Palmier 3-12",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722856524,
+    "lat": 32.0764465,
+    "lon": 5.3488054,
+    "tags": {
+      "name": "Palmier 3-18",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722856525,
+    "lat": 32.0800053,
+    "lon": 5.3485014,
+    "tags": {
+      "name": "Palmier 3-21",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722882923,
+    "lat": 32.0767303,
+    "lon": 5.349165,
+    "tags": {
+      "name": "Palmier 3-19",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722882924,
+    "lat": 32.0796698,
+    "lon": 5.3493426,
+    "tags": {
+      "name": "Ben khikhe 3-14",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5722894121,
+    "lat": 32.0796814,
+    "lon": 5.3482268,
+    "tags": {
+      "name": "Palmier 3-20",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5728336422,
+    "lat": 36.7600497,
+    "lon": 2.9234155,
+    "tags": {
+      "name:en": "Teri Park",
+      "name:fr": "Teri Park",
+      "opening_hours": "Mo-Su 12:00-00:00",
+      "tourism": "attraction",
+      "website": "https://m.facebook.com/TeriParkDZ/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5813095553,
+    "lat": 29.8519331,
+    "lon": -5.0020334,
+    "tags": {
+      "name": "برشمة بوست الجرف",
+      "name:ar": "برشمة بوست الجرف",
+      "name:fr": "Poste El Djorf",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5817350353,
+    "lat": 36.2062171,
+    "lon": 5.4041184,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5820595255,
+    "lat": 36.1904465,
+    "lon": 5.4090244,
+    "tags": {
+      "addr:city": "سطيف",
+      "addr:city:ar": "سطيف",
+      "addr:postcode": "19000",
+      "name": "فور مول",
+      "name:ar": "فور مول",
+      "name:fr": "Four Moul",
+      "shop": "mall",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5820601153,
+    "lat": 36.1550718,
+    "lon": 5.6781743,
+    "tags": {
+      "name": "Doubai",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5832549591,
+    "lat": 36.3751876,
+    "lon": 6.6136073,
+    "tags": {
+      "name": "Monement",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5832549592,
+    "lat": 36.3730219,
+    "lon": 6.6150686,
+    "tags": {
+      "name": "Pont lhballe",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5832933585,
+    "lat": 36.2510347,
+    "lon": 6.5726897,
+    "tags": {
+      "name": "Ritaj Mall",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5833993385,
+    "lat": 36.7492515,
+    "lon": 3.0602856,
+    "tags": {
+      "name": "Vista point",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5834998685,
+    "lat": 36.8096609,
+    "lon": 3.0320897,
+    "tags": {
+      "addr:city": "بولوغين",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5834998785,
+    "lat": 36.8098431,
+    "lon": 3.0318031,
+    "tags": {
+      "name": "Vista point",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5900104486,
+    "lat": 33.7127771,
+    "lon": 7.5295086,
+    "tags": {
+      "name": "قرية الشباب",
+      "name:ar": "قرية الشباب",
+      "name:fr": "Village des jeunes",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5912174885,
+    "lat": 36.5573098,
+    "lon": 1.7689125,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5921407685,
+    "lat": 35.9156269,
+    "lon": 0.0569971,
+    "tags": {
+      "name": "salamander",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5931561088,
+    "lat": 34.4004762,
+    "lon": 2.9031245,
+    "tags": {
+      "name": "تقرسان",
+      "name:ar": "تقرسان",
+      "name:fr": "Takrsan",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5945202857,
+    "lat": 36.8115317,
+    "lon": 3.2236879,
+    "tags": {
+      "alt_name:ar": "برج البحري",
+      "name": "رأس ماتيفو",
+      "name:ar": "رأس ماتيفو",
+      "name:en": "Cap Matifou",
+      "name:fr": "Cap Matifou",
+      "natural": "cape",
+      "place": "locality",
+      "tourism": "attraction",
+      "wikidata": "Q23803671"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5951567485,
+    "lat": 34.7309262,
+    "lon": 5.3952778,
+    "tags": {
+      "name": "الحديقة الصغيرة",
+      "name:ar": "الحديقة الصغيرة",
+      "name:fr": "Petit jardin",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5974146227,
+    "lat": 35.075565,
+    "lon": -1.152576,
+    "tags": {
+      "name": "station thermale",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5991229188,
+    "lat": 33.2740571,
+    "lon": 6.0498553,
+    "tags": {
+      "name": "Bio",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5991229189,
+    "lat": 33.2855753,
+    "lon": 6.0561245,
+    "tags": {
+      "name": "Bio",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6002297886,
+    "lat": 36.3054158,
+    "lon": 6.6787334,
+    "tags": {
+      "name": "قاعة المنارة الحفلات",
+      "name:ar": "قاعة المنارة الحفلات",
+      "name:fr": "salle des fetes El Manara",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6019632585,
+    "lat": 33.5082053,
+    "lon": 6.9394944,
+    "tags": {
+      "addr:city": "الدبيلة",
+      "addr:city:ar": "الدبيلة",
+      "addr:postcode": "39003",
+      "addr:street": "شارع بشير قاسمي",
+      "addr:street:ar": "شارع بشير قاسمي",
+      "email": "essalamdawra@gmail.com",
+      "name": "فوج السلام الكشفي",
+      "name:ar": "فوج السلام الكشفي",
+      "name:en": "groupe essalam scout",
+      "name:fr": "Groupe Scout Essalam",
+      "opening_hours": "Mo-Su 09:00-20:00",
+      "tourism": "attraction",
+      "website": "https://essalamscout.com/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6090217886,
+    "lat": 27.8751146,
+    "lon": -0.333108,
+    "tags": {
+      "addr:city": "أولاد أحمد تيمي",
+      "name": "سوق المواشي",
+      "name:ar": "سوق المواشي",
+      "name:fr": "Marché de bétails",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6130844710,
+    "lat": 36.5410728,
+    "lon": 3.9559085,
+    "tags": {
+      "name": "Foire Larbi cherif",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6143500187,
+    "lat": 33.1006295,
+    "lon": 0.5893377,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6161811485,
+    "lat": 36.7793385,
+    "lon": 8.3775715,
+    "tags": {
+      "name": "البفة",
+      "name:ar": "البفة",
+      "name:en": "Al-Bafa",
+      "name:fr": "Bouffa",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6185861187,
+    "lat": 29.3779438,
+    "lon": 0.3266679,
+    "tags": {
+      "name": "كهف",
+      "name:ar": "كهف",
+      "name:fr": "Grotte",
+      "name:it": "Grotta",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6217229985,
+    "lat": 36.4863006,
+    "lon": 3.0449645,
+    "tags": {
+      "name:fr": "Acqua Park Zaim",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6242491985,
+    "lat": 30.224581,
+    "lon": 4.8826416,
+    "tags": {
+      "name": "H Fettouha",
+      "name:ar": "ح فتحي",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6242492085,
+    "lat": 30.2811435,
+    "lon": 4.8741496,
+    "tags": {
+      "name": "ح بكار",
+      "name:ar": "ح بكار",
+      "name:en": "H Bakkar",
+      "name:fr": "Bakkar",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6256003083,
+    "lat": 35.3055081,
+    "lon": -1.4667295,
+    "tags": {
+      "name": "Cap Acra",
+      "name:ar": "رأس عكرا",
+      "natural": "cape",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6256003262,
+    "lat": 35.2981366,
+    "lon": -1.4796899,
+    "tags": {
+      "alt_name:ar": "رأس بوكوس;رأس بكس",
+      "name": "Cap Bocchus",
+      "name:ar": "رأس بكخس",
+      "name:fr": "Cap Bocchus",
+      "natural": "cape",
+      "place": "locality",
+      "tourism": "attraction",
+      "wikidata": "Q23820699"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6313089287,
+    "lat": 28.0604177,
+    "lon": 9.8399909,
+    "tags": {
+      "name:fr": "CS1",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6313475585,
+    "lat": 35.6767604,
+    "lon": -0.6519076,
+    "tags": {
+      "name": "سعيدان",
+      "name:ar": "سعيدان",
+      "name:en": "Saidan",
+      "name:fr": "Saidan",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6349535387,
+    "lat": 35.194119,
+    "lon": -0.6270873,
+    "tags": {
+      "name:fr": "Mont Plaisir",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6395578786,
+    "lat": 24.5271271,
+    "lon": 9.3192066,
+    "tags": {
+      "name": "Tombe solaire",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6396103589,
+    "lat": 24.4631009,
+    "lon": 9.4922043,
+    "tags": {
+      "name": "Graffiti Bubalus",
+      "name:fr": "Graffiti Bubalus",
+      "name:it": "Graffiti Bubalus",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6397370385,
+    "lat": 24.3871774,
+    "lon": 9.2425849,
+    "tags": {
+      "addr:city": "جانت",
+      "alt_name": "عرق أدمر;عرق ادمر",
+      "alt_name:ar": "عرق أدمر;عرق ادمر",
+      "name": "عرق آدمر",
+      "name:ar": "عرق آدمر",
+      "name:en": "Erg Admer",
+      "name:fr": "Erg Admer",
+      "name:it": "Erg Admer",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6400707285,
+    "lat": 35.736948,
+    "lon": 0.5557756,
+    "tags": {
+      "name": "Zaki labassi",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6400784090,
+    "lat": 35.7429296,
+    "lon": 5.590769,
+    "tags": {
+      "name": "Khalel nssib",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6516171987,
+    "lat": 36.8943435,
+    "lon": 4.1210572,
+    "tags": {
+      "name:fr": "Attraction pour enfants",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6516172789,
+    "lat": 36.8953277,
+    "lon": 4.1216908,
+    "tags": {
+      "name:fr": "Attraction pour enfants",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6576554385,
+    "lat": 36.2242748,
+    "lon": 5.6205525,
+    "tags": {
+      "name": "OULED MAROUANE",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6578269085,
+    "lat": 36.5724516,
+    "lon": 3.9449113,
+    "tags": {
+      "name": "Château boghni",
+      "name:fr": "Châteaux boghni",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6592071155,
+    "lat": 36.5698287,
+    "lon": 5.2903582,
+    "tags": {
+      "building": "yes",
+      "name": "Cascade de Kefrida",
+      "name:ar": "شلال كفريدة",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6602372685,
+    "lat": 35.8903381,
+    "lon": 0.0460534,
+    "tags": {
+      "name": "Khaima Moulay Timimoun",
+      "name:en": "Khaima moulay",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6707639695,
+    "lat": 34.8974493,
+    "lon": 5.9181106,
+    "tags": {
+      "name": "مكان للراحة والسياحة الحبال مشونش",
+      "name:ar": "مكان للراحة والسياحة الحبال مشونش",
+      "name:en": "Place for Tourism Mchounech",
+      "name:fr": "Mchounech",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6710739886,
+    "lat": 35.1407597,
+    "lon": 6.4265375,
+    "tags": {
+      "name": "Arafraf أرفراف",
+      "name:ar": "Arafraf أرفراف",
+      "name:en": "Valley Arafraf",
+      "name:fr": "Vallée Arafraf",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6720059042,
+    "lat": 35.5728181,
+    "lon": -1.1962781,
+    "tags": {
+      "name": "رأس فيقالو",
+      "name:ar": "رأس فيقالو",
+      "name:en": "Cap Figalo",
+      "name:fr": "Cap Figalo",
+      "natural": "cape",
+      "place": "locality",
+      "tourism": "attraction",
+      "wikidata": "Q23813051",
+      "wikipedia": "ar:رأس فيغالو"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6752643087,
+    "lat": 36.8998238,
+    "lon": 8.4384288,
+    "tags": {
+      "addr:city": "القالة",
+      "addr:city:ar": "القالة",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6765250985,
+    "lat": 27.958778,
+    "lon": -0.2884088,
+    "tags": {
+      "name": "حديقة العائلات مراقن ، ادرار.",
+      "name:ar": "حديقة العائلات مراقن ، ادرار.",
+      "name:fr": "Parc des familles Maraguen",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6784918785,
+    "lat": 33.3706686,
+    "lon": 7.6798319,
+    "tags": {
+      "addr:city": "دوار الماء",
+      "addr:street": "محمد الصديق بن يحي",
+      "alt_name:ar": "لكحل",
+      "name": "لكحل لكحل",
+      "name:ar": "لكحل لكحل",
+      "name:en": "Lakahel",
+      "name:fr": "Lakahel",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6833155289,
+    "lat": 24.159945,
+    "lon": 10.9081337,
+    "tags": {
+      "attraction": "nature",
+      "name": "قوس عين تهاك",
+      "name:ar": "قوس عين تهاك",
+      "name:en": "In Tehak Arch",
+      "name:fr": "In Tehak Arch",
+      "natural": "arch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6860641285,
+    "lat": 34.834753,
+    "lon": 3.0992035,
+    "tags": {
+      "name": "Rocher de sel",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6860641385,
+    "lat": 34.3417553,
+    "lon": 3.4944354,
+    "tags": {
+      "name": "Gravures rupestres",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6860641485,
+    "lat": 34.3393416,
+    "lon": 3.4814241,
+    "tags": {
+      "name": "Gravures rupestres",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6861732919,
+    "lat": 25.2661306,
+    "lon": 7.8720152,
+    "tags": {
+      "ele": "1500",
+      "name": "Rock Pillar",
+      "source": "OpenTopoMap",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6875991085,
+    "lat": 29.2610805,
+    "lon": 0.2293764,
+    "tags": {
+      "addr:city": "تيميمون",
+      "addr:street": "شارع أول نوفمبر",
+      "name": "بوابة السودان",
+      "name:ar": "بوابة السودان",
+      "name:en": "Gate of Sudan",
+      "name:fr": "Porte du Soudan",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6875991188,
+    "lat": 29.2628477,
+    "lon": 0.230339,
+    "tags": {
+      "addr:city": "تيميمون",
+      "addr:street": "شارع أول نوفمبر",
+      "name": "ضريح",
+      "name:ar": "ضريح",
+      "name:fr": "Mausolée",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6875992089,
+    "lat": 30.9209413,
+    "lon": -2.0279653,
+    "tags": {
+      "name": "Dunes de Taghit",
+      "opening_hours": "24/7",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6956038885,
+    "lat": 29.829096,
+    "lon": -4.8991921,
+    "tags": {
+      "name": "روضا",
+      "name:ar": "روضا",
+      "name:fr": "Roda",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7072277641,
+    "lat": 23.9939565,
+    "lon": 10.9429835,
+    "tags": {
+      "description": "natural arch",
+      "name": "Oued el Berdj Arch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7072488783,
+    "lat": 25.3695491,
+    "lon": 8.4358558,
+    "tags": {
+      "name": "Idaran",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7072511264,
+    "lat": 25.4251607,
+    "lon": 8.4305104,
+    "tags": {
+      "name": "Ksar of Aghram",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7074484033,
+    "lat": 24.8021611,
+    "lon": 9.1617266,
+    "tags": {
+      "name": "Canyon of Tilelouene",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077379368,
+    "lat": 24.1819319,
+    "lon": 10.8756322,
+    "tags": {
+      "name": "قوس",
+      "name:ar": "قوس",
+      "name:en": "Arch",
+      "name:fr": "Arc",
+      "natural": "arch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077380979,
+    "lat": 24.2651192,
+    "lon": 10.8633408,
+    "tags": {
+      "description": "huge rock needle",
+      "name": "Coup d´Afrique",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077391047,
+    "lat": 24.2558231,
+    "lon": 10.8810604,
+    "tags": {
+      "description": "int. rock formation",
+      "name": "\"King and Queen\"",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077423187,
+    "lat": 24.2488201,
+    "lon": 10.8831434,
+    "tags": {
+      "description": "int. rock formation",
+      "name": "Mammoth",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077425590,
+    "lat": 24.292122,
+    "lon": 10.8830666,
+    "tags": {
+      "description": "high dune with a view",
+      "name": "High Dune",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077748612,
+    "lat": 23.9954785,
+    "lon": 10.9104984,
+    "tags": {
+      "name": "Arch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077777370,
+    "lat": 24.4850787,
+    "lon": 9.7082724,
+    "tags": {
+      "name": "Ancient Cypresses",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077800636,
+    "lat": 24.0238157,
+    "lon": 11.0110934,
+    "tags": {
+      "description": "high dunes",
+      "name": "Dunes of Egedi In Djerane",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077811016,
+    "lat": 23.9769916,
+    "lon": 10.9226232,
+    "tags": {
+      "name": "Giant Arch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077815878,
+    "lat": 24.4885345,
+    "lon": 9.7024827,
+    "tags": {
+      "name": "Ancient Cypress",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077832040,
+    "lat": 24.4717435,
+    "lon": 9.7123793,
+    "tags": {
+      "name": "Jabbaren Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077832079,
+    "lat": 24.6767305,
+    "lon": 9.7078607,
+    "tags": {
+      "name": "Tin Tazarift East Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077832080,
+    "lat": 24.6355974,
+    "lon": 9.6431535,
+    "tags": {
+      "name": "Ancient Cypress Trees",
+      "natural": "tree",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077832908,
+    "lat": 24.6470962,
+    "lon": 9.6749445,
+    "tags": {
+      "name": "Tin Itinen Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077840549,
+    "lat": 24.665379,
+    "lon": 9.7364797,
+    "tags": {
+      "name": "Sefar Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077850244,
+    "lat": 24.6155861,
+    "lon": 9.6489793,
+    "tags": {
+      "name": "Ancient Cypress",
+      "natural": "tree",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077851659,
+    "lat": 24.6441996,
+    "lon": 9.6417497,
+    "tags": {
+      "name": "Tan Zoumaitak Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077858424,
+    "lat": 24.6648674,
+    "lon": 9.7012018,
+    "tags": {
+      "name": "In Etouami Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7077859989,
+    "lat": 24.62079,
+    "lon": 9.6484774,
+    "tags": {
+      "name": "Ancient Cypress",
+      "natural": "tree",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7092893136,
+    "lat": 24.5470182,
+    "lon": 9.485081,
+    "tags": {
+      "name": "Ksar und Altstadt (verfallen)",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7096878565,
+    "lat": 36.1729404,
+    "lon": 5.1444057,
+    "tags": {
+      "addr:city": "عين تاغروت",
+      "addr:city:ar": "عين تاغروت",
+      "addr:place": "سد عين زادة",
+      "addr:place:ar": "سد عين زادة",
+      "name": "Barrage Ain Zada",
+      "name:ar": "سد عين زادة",
+      "name:en": "Ain Zada dam",
+      "name:fr": "Barrage Ain Zada",
+      "place": "locality",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7098162076,
+    "lat": 24.6296074,
+    "lon": 9.6448668,
+    "tags": {
+      "name": "Ancient Cypress Tree",
+      "natural": "tree",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7098225435,
+    "lat": 24.5846812,
+    "lon": 9.3567964,
+    "tags": {
+      "name": "Adeyek Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7104354883,
+    "lat": 24.0731266,
+    "lon": 10.8234439,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "petroglyph",
+      "attraction": "historic",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "Giraffe petroglyphs of Tisseteka",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7104424674,
+    "lat": 24.0315484,
+    "lon": 10.905377,
+    "tags": {
+      "description": "natural arch (großer Felsbogen)",
+      "name": "Tamezguida",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7104424675,
+    "lat": 24.0237527,
+    "lon": 10.9011932,
+    "tags": {
+      "name": "Keyhole Arch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7104462480,
+    "lat": 24.1087318,
+    "lon": 10.9285668,
+    "tags": {
+      "name": "كثبان وادي زواتن",
+      "name:ar": "كثبان وادي زواتن",
+      "name:en": "Dunes of Ouan Zaouatan",
+      "name:fr": "Dunes de Ouan Zaouatan",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7104462481,
+    "lat": 24.1199669,
+    "lon": 10.9149044,
+    "tags": {
+      "name": "قوس الصخرة",
+      "name:ar": "قوس الصخرة",
+      "name:de": "Felsbogen",
+      "name:fr": "Arc rocheuse",
+      "natural": "arch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7104493593,
+    "lat": 24.1669475,
+    "lon": 10.8833865,
+    "tags": {
+      "name": "الفيل",
+      "name:ar": "الفيل",
+      "name:en": "The Elephant",
+      "name:fr": "Éléphant",
+      "natural": "yes",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7104493594,
+    "lat": 24.1651653,
+    "lon": 10.8769788,
+    "tags": {
+      "name": "قوس أبو هديان",
+      "name:ar": "قوس أبو هديان",
+      "name:en": "Bouhadian Arch",
+      "name:fr": "Arc Bouhadian",
+      "natural": "arch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7104626138,
+    "lat": 24.1328173,
+    "lon": 10.9655069,
+    "tags": {
+      "name": "Dunes of In Tehak North",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7122347133,
+    "lat": 24.1449406,
+    "lon": 10.9228914,
+    "tags": {
+      "name": "قوس طبيعي",
+      "name:ar": "قوس طبيعي",
+      "name:en": "natural arch",
+      "name:fr": "Arc naturel",
+      "natural": "arch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7170252885,
+    "lat": 36.9164813,
+    "lon": 6.557136,
+    "tags": {
+      "name:fr": "Village HZAIEM",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7174807485,
+    "lat": 36.9222718,
+    "lon": 6.5472474,
+    "tags": {
+      "name:fr": "Village Laazilat",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7178775385,
+    "lat": 27.4899681,
+    "lon": -7.8269857,
+    "tags": {
+      "name": "مخيم السمارة",
+      "name:ar": "مخيم السمارة",
+      "name:fr": "Camp de Smara",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7184580413,
+    "lat": 24.1162324,
+    "lon": 10.9467897,
+    "tags": {
+      "description": "Dune field",
+      "name": "Dunes of Ouan Zaouatan",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7184596510,
+    "lat": 24.0871512,
+    "lon": 10.9992449,
+    "tags": {
+      "name": "Dunes of In Tehak South",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7193432138,
+    "lat": 24.2731726,
+    "lon": 10.8381533,
+    "tags": {
+      "name": "Canyon and cave",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7193437062,
+    "lat": 24.1022531,
+    "lon": 10.9627126,
+    "tags": {
+      "name": "Dunes of Ouan Zaouatan",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7193437063,
+    "lat": 24.1141818,
+    "lon": 10.9184161,
+    "tags": {
+      "name": "كثبان وادي زواتن",
+      "name:ar": "كثبان وادي زواتن",
+      "name:en": "Dunes of Ouan Zaouatan",
+      "name:fr": "Dunes de Ouan Zaouatan",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7232525788,
+    "lat": 36.5553582,
+    "lon": 3.3726118,
+    "tags": {
+      "highway": "rest_area",
+      "name:fr": "Zima",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7280398385,
+    "lat": 31.9341268,
+    "lon": 5.3367584,
+    "tags": {
+      "name": "مدرسة قرآنية والحديث سكرة",
+      "name:ar": "مدرسة قرآنية والحديث سكرة",
+      "name:fr": "Ecole coranique",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7281946990,
+    "lat": 24.0420985,
+    "lon": 10.9049972,
+    "tags": {
+      "name": "Arch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7293257592,
+    "lat": 36.3129996,
+    "lon": 4.8557077,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7305459086,
+    "lat": 24.827492,
+    "lon": 8.5889767,
+    "tags": {
+      "name": "Tumulus funéraire",
+      "name:de": "Grabhügel",
+      "name:fr": "Tumulus funéraire",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7305459087,
+    "lat": 24.790108,
+    "lon": 9.1579299,
+    "tags": {
+      "name": "Canyon",
+      "name:de": "Canyon",
+      "name:fr": "Canyon",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7305459188,
+    "lat": 24.87355,
+    "lon": 8.7689894,
+    "tags": {
+      "name": "Granit de Bolderfelsen",
+      "name:de": "Bolderfelsen Granit",
+      "name:fr": "Granit de Bolderfelsen",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7305459189,
+    "lat": 24.9514701,
+    "lon": 9.0017783,
+    "tags": {
+      "name": "Essendilene Canyon",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7305459191,
+    "lat": 24.6557689,
+    "lon": 9.25042,
+    "tags": {
+      "name": "Grotte",
+      "name:de": "Höhle",
+      "name:fr": "Grotte",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7305459192,
+    "lat": 24.579463,
+    "lon": 9.3661586,
+    "tags": {
+      "name": "Jardin rocheux d'Adrait",
+      "name:de": "Felsengarten Adrait",
+      "name:fr": "Jardin rocheux d'Adrait",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7305459193,
+    "lat": 24.5741836,
+    "lon": 9.4382858,
+    "tags": {
+      "name": "Jardin de roches",
+      "name:de": "Felsengarten",
+      "name:fr": "Jardin de roches",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7305459286,
+    "lat": 24.5635461,
+    "lon": 9.475277,
+    "tags": {
+      "amenity": "place_of_worship",
+      "religion": "muslim",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7384921986,
+    "lat": 36.8104933,
+    "lon": 5.9725183,
+    "tags": {
+      "name": "ربوج القنار نشفي",
+      "name:ar": "ربوج القنار نشفي",
+      "name:fr": "El Kennar Nouchfi",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7384924385,
+    "lat": 36.8324049,
+    "lon": 5.9787463,
+    "tags": {
+      "addr:street": "طريق بونصر",
+      "name": "بونصر المزاير",
+      "name:ar": "بونصر المزاير",
+      "name:fr": "Bounasr Almzair",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7461675785,
+    "lat": 35.2242357,
+    "lon": 0.1269145,
+    "tags": {
+      "addr:street": "طريق غريس،معسكر",
+      "name": "مسجد سهيل بن بيضاء",
+      "name:ar": "مسجد سهيل بن بيضاء",
+      "name:fr": "Mosquée Suhail Bin Bayda",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7472771585,
+    "lat": 26.9699703,
+    "lon": -0.0275492,
+    "tags": {
+      "name": "قصر المنصور",
+      "name:ar": "قصر المنصور",
+      "name:fr": "Ksar Mansour",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7557503595,
+    "lat": 36.8996009,
+    "lon": 8.434569,
+    "tags": {
+      "name": "Pointe du Chacal نقطة ابن آوى",
+      "name:ar": "نقطة ابن آوى",
+      "name:fr": "Pointe du Chacal",
+      "natural": "cape",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7566897776,
+    "lat": 36.7601449,
+    "lon": 5.1061589,
+    "tags": {
+      "name": "Cap Bouak",
+      "name:fr": "Cap Bouak",
+      "name:kab": "Kap Bwaq",
+      "natural": "cape",
+      "place": "locality",
+      "tourism": "attraction",
+      "wikidata": "Q15166115",
+      "wikimedia_commons": "Category:Cap Bouak",
+      "wikipedia": "ar:رأس بواك"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7567028961,
+    "lat": 36.7689743,
+    "lon": 5.1072214,
+    "tags": {
+      "name": "Pointe Noir",
+      "name:fr": "Pointe Noir",
+      "natural": "cape",
+      "place": "locality",
+      "tourism": "attraction",
+      "wikidata": "Q23800008"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7567370677,
+    "lat": 36.7570685,
+    "lon": 5.0936968,
+    "tags": {
+      "long_name:ar": "نسيم البحر بجاية",
+      "name": "Brise de Mer",
+      "name:ar": "نسيم البحر",
+      "name:fr": "Brise de Mer",
+      "name:kab": "Abeḥri Lebḥeṛ",
+      "place": "locality",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7571597985,
+    "lat": 33.689189,
+    "lon": 1.0165419,
+    "tags": {
+      "name": "El Bayadh",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7572603485,
+    "lat": 36.7491244,
+    "lon": 5.7525113,
+    "tags": {
+      "addr:street": "المرابط موسى",
+      "name": "مرشيشة",
+      "name:ar": "مرشيشة",
+      "name:en": "Marchicha",
+      "name:fr": "Marchicha",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7637941923,
+    "lat": 24.6705772,
+    "lon": 9.6844226,
+    "tags": {
+      "name": "Ouan Lhote Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7639961334,
+    "lat": 24.6753264,
+    "lon": 9.6919096,
+    "tags": {
+      "name": "Tin Tazarift West Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7639992288,
+    "lat": 24.6838011,
+    "lon": 9.6943411,
+    "tags": {
+      "name": "Tin Aboteka Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640068413,
+    "lat": 24.6033882,
+    "lon": 9.7108022,
+    "tags": {
+      "name": "Tin Kani Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640068483,
+    "lat": 24.6671606,
+    "lon": 9.737756,
+    "tags": {
+      "name": "Place Bacchus",
+      "name:de": "Bacchus Platz",
+      "name:fr": "Place Bacchus",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640068484,
+    "lat": 24.666697,
+    "lon": 9.7365267,
+    "tags": {
+      "name": "Sanddüner Avenue",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640068485,
+    "lat": 24.6632694,
+    "lon": 9.7354275,
+    "tags": {
+      "name": "Place de la mosquée",
+      "name:de": "Platz der Moschee",
+      "name:fr": "Place de la mosquée",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640068486,
+    "lat": 24.6621946,
+    "lon": 9.7380637,
+    "tags": {
+      "name": "Place du dieu pêcheur?",
+      "name:de": "Platz des Fischergottes ?",
+      "name:fr": "Place du dieu pêcheur?",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640068487,
+    "lat": 24.6634361,
+    "lon": 9.7372639,
+    "tags": {
+      "name": "Platz der Drei Tore ?",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640068510,
+    "lat": 24.6599234,
+    "lon": 9.7347045,
+    "tags": {
+      "name": "Place des trois?",
+      "name:de": "Platz der Drei ?",
+      "name:fr": "Place des trois?",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640068525,
+    "lat": 24.6603222,
+    "lon": 9.7356768,
+    "tags": {
+      "name": "Rue de la négresse?",
+      "name:de": "Strasse der Negerin ?",
+      "name:fr": "Rue de la négresse?",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640068526,
+    "lat": 24.6598568,
+    "lon": 9.7359006,
+    "tags": {
+      "name": "Rue des barres à billes?",
+      "name:de": "Strasse der Kugelstäbe ?",
+      "name:fr": "Rue des barres à billes?",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640242700,
+    "lat": 24.5973923,
+    "lon": 9.6317749,
+    "tags": {
+      "name": "Akba Tafilalet",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7640459373,
+    "lat": 24.4576468,
+    "lon": 9.7233973,
+    "tags": {
+      "name": "Aouenrhet ?",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7649645056,
+    "lat": 25.1315513,
+    "lon": 8.4470334,
+    "tags": {
+      "name": "Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7652168271,
+    "lat": 25.4592336,
+    "lon": 8.5339558,
+    "tags": {
+      "name": "Irekam / Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7684045096,
+    "lat": 36.8069192,
+    "lon": 5.0149141,
+    "tags": {
+      "name": "Pointe Mezaïa",
+      "name:fr": "Pointe Mezaïa",
+      "natural": "cape",
+      "place": "locality",
+      "tourism": "attraction",
+      "wikidata": "Q23802554"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7684059883,
+    "lat": 36.8183088,
+    "lon": 4.9884502,
+    "tags": {
+      "name": "Pointe Boulimat",
+      "name:fr": "Pointe Boulimat",
+      "natural": "cape",
+      "place": "locality",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7777577136,
+    "lat": 25.4343944,
+    "lon": 8.2964795,
+    "tags": {
+      "name": "Irekam, Rock City of Tadrast",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7806732383,
+    "lat": 25.3485428,
+    "lon": 8.020464,
+    "tags": {
+      "description": "starting point for hikes to neolithic paintings and tourist camp",
+      "name": "In Tanadouft",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7832083361,
+    "lat": 24.9596194,
+    "lon": 6.3271515,
+    "tags": {
+      "name": "salt works of Amadror",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7859053207,
+    "lat": 24.1303646,
+    "lon": 10.9881083,
+    "tags": {
+      "name": "Dunes of In Tehak North",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7904722617,
+    "lat": 36.5331848,
+    "lon": 1.4001228,
+    "tags": {
+      "name": "Traghnia Cascades شلال تراغنية بالتنس",
+      "name:ar": "Traghnia Cascades شلال تراغنية بالتنس",
+      "name:fr": "Traghnia Cascades",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7915583585,
+    "lat": 36.1552921,
+    "lon": 5.6725187,
+    "tags": {
+      "name": "Chairluxe",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7981159722,
+    "lat": 24.6254808,
+    "lon": 9.6461116,
+    "tags": {
+      "name": "Tamrit Rock City",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7995960587,
+    "lat": 36.5379457,
+    "lon": 4.5626009,
+    "tags": {
+      "name": "iguer Amokran",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7995960588,
+    "lat": 36.5327891,
+    "lon": 4.5641138,
+    "tags": {
+      "name": "ikharvan",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7995960885,
+    "lat": 36.5367419,
+    "lon": 4.5621331,
+    "tags": {
+      "name": "Armila",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8090422117,
+    "lat": 26.8293053,
+    "lon": -6.8757098,
+    "tags": {
+      "name": "الداخلة",
+      "name:ar": "الداخلة",
+      "name:fr": "Dakhla",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8090422118,
+    "lat": 26.8295503,
+    "lon": -6.8755604,
+    "tags": {
+      "name": "الداخلة",
+      "name:ar": "الداخلة",
+      "name:fr": "Dakhla",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8120755940,
+    "lat": 35.0182891,
+    "lon": 1.0681548,
+    "tags": {
+      "name": "مغارة ابن خلدون",
+      "name:ar": "مغارة ابن خلدون",
+      "name:fr": "Grotte d'Ibn Khaldun",
+      "natural": "cave_entrance",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8158276218,
+    "lat": 36.8999439,
+    "lon": 8.4403248,
+    "tags": {
+      "name": "Port El Kala",
+      "name:ar": "ميناء القديم",
+      "name:fr": "Port El Kala",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8294449569,
+    "lat": 34.8970966,
+    "lon": 1.2479867,
+    "tags": {
+      "name": "تمثال الفارس الجزائري",
+      "name:fr": "Statue de chevalier algérien",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8329606618,
+    "lat": 23.1509626,
+    "lon": 5.7351206,
+    "tags": {
+      "name": "Afilal",
+      "name:ar": "افيلال",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8387260817,
+    "lat": 21.3270908,
+    "lon": 0.9496181,
+    "tags": {
+      "addr:street": "الشارع الواسع",
+      "name": "حي الوسط",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8392890017,
+    "lat": 34.347457,
+    "lon": 7.2683018,
+    "tags": {
+      "name": "So",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8458193617,
+    "lat": 33.3834582,
+    "lon": 6.8614083,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8629742517,
+    "lat": 32.2311961,
+    "lon": 5.0950165,
+    "tags": {
+      "name": "واد مزاب",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8644064352,
+    "lat": 25.3812407,
+    "lon": 8.2655789,
+    "tags": {
+      "name": "Iheren Rockpaintings",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8701508349,
+    "lat": 25.3808985,
+    "lon": 8.2655696,
+    "tags": {
+      "name": "Irekam / Rockcity of Iheren",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8701508350,
+    "lat": 25.3809653,
+    "lon": 8.2694148,
+    "tags": {
+      "name": "Irekam / Rockcity of Iheren",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8701655372,
+    "lat": 25.421446,
+    "lon": 8.2191475,
+    "tags": {
+      "name": "Irekam / Rockcity of Tan Toudeft",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8721958185,
+    "lat": 25.4079832,
+    "lon": 8.2208342,
+    "tags": {
+      "name": "Irekam / Rockcity",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8721958186,
+    "lat": 25.3901917,
+    "lon": 8.2430134,
+    "tags": {
+      "name": "Irekam / Rockcity",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8721958187,
+    "lat": 25.3781361,
+    "lon": 8.2597777,
+    "tags": {
+      "name": "Irekam / Rockcity",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8724616454,
+    "lat": 25.4734378,
+    "lon": 8.5678173,
+    "tags": {
+      "name": "Irekam / Rockcity",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8749927383,
+    "lat": 25.4982721,
+    "lon": 8.7137526,
+    "tags": {
+      "name": "Irekam / Rockcity",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8755354357,
+    "lat": 25.5288781,
+    "lon": 8.6721399,
+    "tags": {
+      "name": "Irekam / Rockcity",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8836499593,
+    "lat": 24.8423225,
+    "lon": 9.0716522,
+    "tags": {
+      "name": "Pilz-Fels",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8836703817,
+    "lat": 35.7109118,
+    "lon": 6.3237579,
+    "tags": {
+      "name": "مركز الفروسية",
+      "name:en": "Horse-riding center",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8911139217,
+    "lat": 35.6690885,
+    "lon": 6.4247,
+    "tags": {
+      "name": "مسبح نصف أولمبي",
+      "name:en": "semi olympic pool",
+      "name:fr": "Picine semi olympique",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9098652717,
+    "lat": 36.7182679,
+    "lon": 3.2087558,
+    "tags": {
+      "addr:street": "Rue de l'ALN",
+      "name": "Moustex",
+      "name:ar": "موستاكس",
+      "name:fr": "Moustex",
+      "phone": "0668619566",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9291024417,
+    "lat": 31.9317586,
+    "lon": 5.475026,
+    "tags": {
+      "name": "حديقة التسلية البكرات",
+      "name:en": "bakrat park",
+      "opening_hours": "Mo-Su 11:00-21:30",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9379382423,
+    "lat": 32.7531606,
+    "lon": 6.4884844,
+    "tags": {
+      "addr:housenumber": "الجنوب الشرقي",
+      "addr:street": "الطيبات",
+      "name": "صحن خلط",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9379397653,
+    "lat": 32.7745734,
+    "lon": 6.5556745,
+    "tags": {
+      "addr:housenumber": "الجنوب الشرقي",
+      "addr:street": "الطيبات",
+      "name": "قنطرة الوصيف",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9379561541,
+    "lat": 32.823144,
+    "lon": 6.5024004,
+    "tags": {
+      "addr:housenumber": "الجنوب الشرقي",
+      "addr:street": "الطيبات",
+      "name": "أزالة سيدي محمد",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9379599083,
+    "lat": 32.892164,
+    "lon": 6.4383169,
+    "tags": {
+      "addr:housenumber": "الجنوب الشرقي",
+      "addr:street": "الطيبات",
+      "name": "شوشة الذر",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9380199227,
+    "lat": 32.9692833,
+    "lon": 6.4748396,
+    "tags": {
+      "addr:housenumber": "الجنوب الشرقي",
+      "addr:street": "الطيبات",
+      "name": "شوشة الريغي",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9380469016,
+    "lat": 32.7994708,
+    "lon": 6.5021281,
+    "tags": {
+      "addr:housenumber": "الجنوب الشرقي",
+      "addr:street": "الطيبات",
+      "name": "شوشة الحجاج",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9380474412,
+    "lat": 32.6543439,
+    "lon": 6.5104183,
+    "tags": {
+      "addr:housenumber": "الجنوب الشرقي",
+      "addr:street": "الطيبات",
+      "name": "بوريشة",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9381083106,
+    "lat": 32.9359229,
+    "lon": 6.3514698,
+    "tags": {
+      "addr:housenumber": "جنوب",
+      "addr:street": "الطيبات",
+      "name": "صحن ام الطبول",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9386583497,
+    "lat": 32.652875,
+    "lon": 6.5107862,
+    "tags": {
+      "addr:housenumber": "الجنوب",
+      "addr:street": "الطيبات",
+      "name": "بوريشة",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9510119117,
+    "lat": 33.012276,
+    "lon": 1.2378255,
+    "tags": {
+      "name": "جبال الڤور",
+      "name:en": "Al Gor , Mountains",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9580081656,
+    "lat": 25.1092292,
+    "lon": 8.5715574,
+    "tags": {
+      "name": "IMESSERIDJEN",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9629051054,
+    "lat": 25.3377803,
+    "lon": 8.1155727,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9682545614,
+    "lat": 32.4753893,
+    "lon": 3.7464724,
+    "tags": {
+      "name": "السوق الداخلي",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9724561517,
+    "lat": 25.4354008,
+    "lon": 7.4518273,
+    "tags": {
+      "name": "Rock Arch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9945586618,
+    "lat": 33.5297338,
+    "lon": 6.9000748,
+    "tags": {
+      "name": "مسجد",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9988011245,
+    "lat": 35.9532949,
+    "lon": 0.0963235,
+    "tags": {
+      "name": "25 - Ghost House",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10123194318,
+    "lat": 36.5762151,
+    "lon": 2.2950533,
+    "tags": {
+      "name": "View of Roman Aquaduct",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10297206909,
+    "lat": 37.0646143,
+    "lon": 7.3368283,
+    "tags": {
+      "name:fr": "Plage Sable d’or 3",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10712432742,
+    "lat": 23.627428,
+    "lon": 10.4875376,
+    "tags": {
+      "name": "ali h'dma",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10740560705,
+    "lat": 25.2385448,
+    "lon": 8.7185715,
+    "tags": {
+      "name:de": "Höhlenmalerei",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10740560706,
+    "lat": 25.2004593,
+    "lon": 8.8401454,
+    "tags": {
+      "name:de": "Höhlenmalerei Jäger",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10740560707,
+    "lat": 25.2177106,
+    "lon": 8.8553416,
+    "tags": {
+      "name:de": "Höhlenmalerei",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10740560805,
+    "lat": 25.2310025,
+    "lon": 8.7620642,
+    "tags": {
+      "name:de": "Höhlenmalerei Giraffe",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10740560806,
+    "lat": 25.2185797,
+    "lon": 8.8521574,
+    "tags": {
+      "name:de": "Höhlenmalerei",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10740560905,
+    "lat": 25.2054819,
+    "lon": 8.9011189,
+    "tags": {
+      "name:de": "Felsritzung Geburt",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10740560906,
+    "lat": 25.269837,
+    "lon": 8.9596858,
+    "tags": {
+      "name:de": "Höhlenmalerei badende Frau",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10740561006,
+    "lat": 25.3375776,
+    "lon": 8.9112208,
+    "tags": {
+      "name:de": "Wasserloch Guelta",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10740561105,
+    "lat": 25.3326209,
+    "lon": 8.9082946,
+    "tags": {
+      "name:de": "Hügelgräber",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392205,
+    "lat": 25.3309048,
+    "lon": 8.9057277,
+    "tags": {
+      "name:de": "Hügelgrab",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392206,
+    "lat": 25.3365529,
+    "lon": 8.8687336,
+    "tags": {
+      "name:de": "Felsmalerei",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392207,
+    "lat": 25.3674891,
+    "lon": 8.82408,
+    "tags": {
+      "name:de": "Felsgravur Mensch",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392208,
+    "lat": 25.4198001,
+    "lon": 8.8578723,
+    "tags": {
+      "name:de": "Schlacke von Erzverhüttung",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392209,
+    "lat": 25.4195077,
+    "lon": 8.8579726,
+    "tags": {
+      "name:de": "Ruine",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392210,
+    "lat": 25.4227837,
+    "lon": 8.856668,
+    "tags": {
+      "name:de": "Guelta",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392305,
+    "lat": 25.3357352,
+    "lon": 8.8685882,
+    "tags": {
+      "name:de": "Höhlenmalerei",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392307,
+    "lat": 25.3675573,
+    "lon": 8.8241633,
+    "tags": {
+      "name:de": "Felsgravur Hund",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392308,
+    "lat": 25.39762,
+    "lon": 8.8135362,
+    "tags": {
+      "name:de": "Felsgravuren Schildkröten und andere Tiere",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392309,
+    "lat": 25.3955411,
+    "lon": 8.8403211,
+    "tags": {
+      "name:de": "Felsgravur Antilope",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392310,
+    "lat": 25.4213032,
+    "lon": 8.8581878,
+    "tags": {
+      "name:de": "Schlacke",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392405,
+    "lat": 25.366999,
+    "lon": 8.8243713,
+    "tags": {
+      "name:de": "Felsgravur Giraffe",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392505,
+    "lat": 25.367221,
+    "lon": 8.8241241,
+    "tags": {
+      "name:de": "Felsgravur Strauss",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392506,
+    "lat": 25.3932487,
+    "lon": 8.8131272,
+    "tags": {
+      "name:de": "Felsgravur Schildkröten",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749392507,
+    "lat": 25.4227728,
+    "lon": 8.855188,
+    "tags": {
+      "name:de": "Höhlenmalerei",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413105,
+    "lat": 25.4230078,
+    "lon": 8.8553782,
+    "tags": {
+      "name:de": "Ruinen",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413106,
+    "lat": 25.4250292,
+    "lon": 8.854751,
+    "tags": {
+      "name:de": "Felsgravur Rhinozeros",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413107,
+    "lat": 25.4049396,
+    "lon": 8.4195201,
+    "tags": {
+      "name:de": "Gumpen zum Baden",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413205,
+    "lat": 25.4232027,
+    "lon": 8.8553198,
+    "tags": {
+      "name:de": "Rundhütte",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413207,
+    "lat": 25.4076715,
+    "lon": 8.8123268,
+    "tags": {
+      "name:de": "Felsritzung Mensch hält Gepard",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413209,
+    "lat": 25.3137614,
+    "lon": 8.7013963,
+    "tags": {
+      "name:de": "Alte Kameltrasse",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413210,
+    "lat": 25.2896505,
+    "lon": 8.6338681,
+    "tags": {
+      "name:de": "Höhlenmalerei",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413211,
+    "lat": 25.1491269,
+    "lon": 8.5061112,
+    "tags": {
+      "name:de": "Felsgravuren lockige Kuh",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413306,
+    "lat": 25.2895272,
+    "lon": 8.6338053,
+    "tags": {
+      "name:de": "Hügelgrab",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413405,
+    "lat": 25.4177945,
+    "lon": 8.8263327,
+    "tags": {
+      "name:de": "Felsmalerei",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413407,
+    "lat": 25.2824432,
+    "lon": 8.6486717,
+    "tags": {
+      "name:de": "Hügelgrab",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413408,
+    "lat": 25.4040897,
+    "lon": 8.4176287,
+    "tags": {
+      "name:de": "Schlacke von historischer Eisenverhüttung",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413409,
+    "lat": 25.4068026,
+    "lon": 8.4172367,
+    "tags": {
+      "name:de": "Ruine",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10749413411,
+    "lat": 25.3958754,
+    "lon": 8.4009147,
+    "tags": {
+      "name:de": "Moschee",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10964376705,
+    "lat": 36.7981868,
+    "lon": 3.0001441,
+    "tags": {
+      "name:fr": "Stade de Bouzareah",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11034592705,
+    "lat": 36.8750497,
+    "lon": 7.7145724,
+    "tags": {
+      "name:fr": "Parc Farouk Land",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11107804506,
+    "lat": 36.6969734,
+    "lon": 2.8009779,
+    "tags": {
+      "name": "شاطى",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11191899437,
+    "lat": 35.7510633,
+    "lon": -0.5282919,
+    "tags": {
+      "addr:postcode": "31000",
+      "addr:street": "Chemin de la Reina Ilot 2 7/1, Bir El Djir 31000",
+      "email": "Coolparkoran@gmail.com",
+      "name:en": "Cool Park Oran",
+      "opening_hours": "Su-Th 14:00-22:00; Fr 14:30-22:00; Sa 14:00-22:00",
+      "phone": "0659945698",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11212184239,
+    "lat": 36.2531351,
+    "lon": 6.5851338,
+    "tags": {
+      "craft": "handicraft",
+      "shop": "antiques",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11401163469,
+    "lat": 36.0513492,
+    "lon": 6.644526,
+    "tags": {
+      "name": "حديقة الحيوانات أولاد قاسم",
+      "name:en": "Zoo Ouled gacem",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11516274269,
+    "lat": 36.190534,
+    "lon": 5.4062046,
+    "tags": {
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11554675269,
+    "lat": 36.7701766,
+    "lon": 2.947557,
+    "tags": {
+      "name": "pépinière SIDALI",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976887,
+    "lat": 24.8043194,
+    "lon": 9.3124586,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976888,
+    "lat": 24.793481,
+    "lon": 9.2791792,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976889,
+    "lat": 24.734868,
+    "lon": 9.3014225,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976890,
+    "lat": 24.728342,
+    "lon": 9.2853223,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976891,
+    "lat": 24.7288825,
+    "lon": 9.3809756,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976892,
+    "lat": 24.7473829,
+    "lon": 9.330563,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976893,
+    "lat": 24.7516137,
+    "lon": 9.32633,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976894,
+    "lat": 24.7515233,
+    "lon": 9.2929189,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976895,
+    "lat": 24.7563646,
+    "lon": 9.2745275,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976896,
+    "lat": 24.7538336,
+    "lon": 9.2959172,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976897,
+    "lat": 24.7537879,
+    "lon": 9.3004548,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976898,
+    "lat": 24.7512065,
+    "lon": 9.3001945,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976899,
+    "lat": 24.7494389,
+    "lon": 9.3000022,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976900,
+    "lat": 24.7494598,
+    "lon": 9.3049632,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976901,
+    "lat": 24.7476837,
+    "lon": 9.3102461,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976902,
+    "lat": 24.7361809,
+    "lon": 9.2979302,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976903,
+    "lat": 24.7362422,
+    "lon": 9.2982393,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976904,
+    "lat": 24.7353776,
+    "lon": 9.3003704,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976905,
+    "lat": 24.7355518,
+    "lon": 9.3000792,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976906,
+    "lat": 24.735597,
+    "lon": 9.2997311,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976907,
+    "lat": 24.7357369,
+    "lon": 9.3067752,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976908,
+    "lat": 24.735859,
+    "lon": 9.304782,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976909,
+    "lat": 24.7354883,
+    "lon": 9.3035306,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976910,
+    "lat": 24.7351223,
+    "lon": 9.294449,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976911,
+    "lat": 24.7351036,
+    "lon": 9.2946726,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976912,
+    "lat": 24.7352061,
+    "lon": 9.2946397,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976913,
+    "lat": 24.7342984,
+    "lon": 9.2910876,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976914,
+    "lat": 24.7334667,
+    "lon": 9.2912277,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976915,
+    "lat": 24.7338484,
+    "lon": 9.2913968,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976916,
+    "lat": 24.7359027,
+    "lon": 9.2897039,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11655976917,
+    "lat": 24.7359586,
+    "lon": 9.2821885,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177113,
+    "lat": 24.7515805,
+    "lon": 9.2929197,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177114,
+    "lat": 24.8000846,
+    "lon": 9.282385,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177115,
+    "lat": 24.7993535,
+    "lon": 9.2834097,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177116,
+    "lat": 24.7971032,
+    "lon": 9.3023071,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177117,
+    "lat": 24.7950007,
+    "lon": 9.3082014,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177118,
+    "lat": 24.7576888,
+    "lon": 9.3097895,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177119,
+    "lat": 24.7570671,
+    "lon": 9.3109434,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177120,
+    "lat": 24.7570497,
+    "lon": 9.3163725,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177121,
+    "lat": 24.7374287,
+    "lon": 9.3282227,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177122,
+    "lat": 24.737269,
+    "lon": 9.3125437,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177123,
+    "lat": 24.7370734,
+    "lon": 9.3119644,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177124,
+    "lat": 24.7369168,
+    "lon": 9.3102313,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177125,
+    "lat": 24.7358297,
+    "lon": 9.3047686,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177126,
+    "lat": 24.7348557,
+    "lon": 9.301446,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177127,
+    "lat": 24.7354514,
+    "lon": 9.303519,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177128,
+    "lat": 24.7362254,
+    "lon": 9.2982526,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177129,
+    "lat": 24.7361776,
+    "lon": 9.2979654,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177130,
+    "lat": 24.7355819,
+    "lon": 9.2997368,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177131,
+    "lat": 24.7350818,
+    "lon": 9.2946954,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177132,
+    "lat": 24.7351905,
+    "lon": 9.2946427,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177133,
+    "lat": 24.7334555,
+    "lon": 9.2912196,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177134,
+    "lat": 24.7338469,
+    "lon": 9.2913776,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177135,
+    "lat": 24.7342861,
+    "lon": 9.2910999,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177136,
+    "lat": 24.7358689,
+    "lon": 9.2897163,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177137,
+    "lat": 24.7359316,
+    "lon": 9.2825374,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11656177138,
+    "lat": 24.735986,
+    "lon": 9.2821897,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "tumulus",
+      "historic": "archaeological_site",
+      "historic:civilization": "neolithic",
+      "name": "قبر شمسي",
+      "name:ar": "قبر شمسي",
+      "name:en": "Solar Tomb",
+      "name:fr": "Tombe solaire",
+      "tourism": "attraction",
+      "tumulus": "keyhole_tomb"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11835379969,
+    "lat": 32.93095,
+    "lon": 0.8703767,
+    "tags": {
+      "name": "خيمة  لهاجري",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11851488369,
+    "lat": 36.6871108,
+    "lon": 6.730995,
+    "tags": {
+      "name": "عدل 500 مسكن سيدي مزغيش",
+      "name:en": "Aadl 500",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11931096136,
+    "lat": 36.7841132,
+    "lon": 3.0551511,
+    "tags": {
+      "castle_type": "palace",
+      "historic": "castle",
+      "name": "قصر الداي",
+      "name:ar": "قصر الداي",
+      "name:en": "Palace of the Dey",
+      "name:fr": "Palais du Dey",
+      "tourism": "attraction",
+      "wikidata": "Q12232990",
+      "wikimedia_commons": "Category:Citadelle d'Alger",
+      "wikipedia": "ar:قصر الداي"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12109397301,
+    "lat": 36.7527083,
+    "lon": 2.9468141,
+    "tags": {
+      "name": "laser strik dz",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12133859819,
+    "lat": 36.7851413,
+    "lon": 3.0623352,
+    "tags": {
+      "access": "yes",
+      "archaeological_site": "yes",
+      "excavation site": "yes",
+      "historic": "archaeological_site",
+      "name": "الموقع الأثري لبقايا مسجد السيدة",
+      "name:ar": "الموقع الأثري لبقايا مسجد السيدة",
+      "name:en": "The archaeological excavation site of the remains of the \"El Sayyida Mosque\"",
+      "name:fr": "Le site archéologique des vestiges de la \"Mosquée El Sayyida\"",
+      "ruins": "mosque",
+      "source": "aerial imagery;local knowledge;streetlevel imagery;https://www.maghrebvoices.com/;https://www.aps.dz/",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12134289226,
+    "lat": 36.7847278,
+    "lon": 3.0624622,
+    "tags": {
+      "tourism": "attraction"
+    }
+  }
+]

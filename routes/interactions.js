@@ -31,7 +31,7 @@ router.post("/like", authenticateUser, async (req, res) => {
 
 router.delete("/unlike", authenticateUser, async (req, res) => {
   const { entity_id, entity_type } = req.body;
-  const {user_id} = req.query;
+  const { user_id } = req.query;
   try {
     await pool.query(
       "DELETE FROM likes WHERE user_id = $1 AND entity_id = $2 AND entity_type = $3",
@@ -41,6 +41,38 @@ router.delete("/unlike", authenticateUser, async (req, res) => {
     res.status(200).json({ message: "Entity unliked successfully" });
   } catch (error) {
     res.status(500).json({ message: "Server error", error });
+  }
+});
+
+router.post("/booking", authenticateUser, async (req, res) => {
+  const {
+    user_id,
+    hotel_id,
+    person_number,
+    room_id,
+    total_price,
+    booking_start,
+    booking_end,
+  } = req.body;
+
+  console.log(req.body)
+  try {
+    const booking = await pool.query(
+      "INSERT INTO hotel_booking (user_id, hotel_id, person_number, room_id, total_price, booking_start, booking_end) VALUES ($1, $2, $3, $4, $5, $6, $7)",
+      [
+        user_id,
+        hotel_id,
+        person_number,
+        room_id,
+        total_price,
+        booking_start,
+        booking_end,
+      ]
+    );
+    res.status(200).json({message: "Room Booked succefully"})
+  } catch (error) {
+    console.log(error)
+    res.status(500).json(error)
   }
 });
 
