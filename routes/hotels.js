@@ -198,7 +198,7 @@ router.delete("/room/:id", authenticateUser, async (req, res) => {
         .send("Room not found or does not match the provided details.");
     }
 
-    res.json({ message: "Room deleted successfully." });
+    res.json({ message: "Room deleted successfully.", room: result.rows });
   } catch (error) {
     console.error("Error deleting room:", error);
     res.status(500).send("Server error.");
