@@ -4,13 +4,12 @@ const pool = require("../db");
 const authenticateUser = require("../middlewares/authMiddleware");
 const admin = require("firebase-admin");
 const multer = require("multer");
-const fs = require("fs");
 const path = require("path");
 
 
 const bucket = admin.storage().bucket();
 // Multer setup for handling file uploads
-const upload = multer({ dest: "uploads/" });
+const upload = multer({ storage: multer.memoryStorage() });
 
 
 const getRestaurantsWithinRadius = async (lat, lon, radius) => {
@@ -36,6 +35,24 @@ const getRestaurantsWithinRadius = async (lat, lon, radius) => {
   }
 };
 
+
+// Function to insert menu item into the database
+const insertMenuItem = async (type, name, price, descr, imageUrl, menuId, res) => {
+  try {
+    const insertQuery = `
+      INSERT INTO menu_items (type, name, price, descr, rating, image_url, menu_id)
+      VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING *`;
+    const insertValues = [type, name, price, descr, 0, imageUrl ? [imageUrl] : null, menuId];
+
+    const result = await pool.query(insertQuery, insertValues);
+    res.status(201).json(result.rows[0]);
+  } catch (error) {
+    console.error("Error inserting menu item into the database:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+
 router.get("/", authenticateUser, async (req, res) => {
   try {
     const restaurants = await pool.query("SELECT * FROM restaurant");
@@ -48,10 +65,8 @@ router.get("/", authenticateUser, async (req, res) => {
 router.get("/nearby", async (req, res) => {
   const { lat, lon, radius } = req.query;
 
-  console.log("lat: ", lat);
 
   try {
-    console.log("query: ", lon);
 
     const nearbyRestaurants = await getRestaurantsWithinRadius(
       lat,
@@ -110,15 +125,8 @@ router.get("/menu/items", authenticateUser, async (req, res) => {
 });
 
 
-
-
-
-
-
-
-
 router.post("/menu/items", authenticateUser, upload.single("image"), async (req, res) => {
-  const { id } = req.query;
+  const { id } = req.query; // restaurant id
   const { type, name, price, descr } = req.body;
 
   try {
@@ -144,37 +152,42 @@ router.post("/menu/items", authenticateUser, upload.single("image"), async (req,
     // Handle file upload if provided
     if (req.file) {
       const file = req.file;
-      const destination = `restaurants/${resto.rows[0].name}/menu/${file.filename}-${Date.now()}${path.extname(file.originalname)}`;
+      const destination = `restaurants/${resto.rows[0].name}/menu/${file.originalname}-${Date.now()}${path.extname(file.originalname)}`;
 
-      await bucket.upload(file.path, {
-        destination: destination,
-        public: true, // Ensures the file is publicly accessible
+      // Upload file to Firebase Storage directly from memory
+      const blob = bucket.file(destination);
+      const blobStream = blob.createWriteStream({
         metadata: {
-          contentType: file.mimetype, // Sets the correct content type
+          contentType: file.mimetype, // Set correct MIME type
         },
+        public: true, // Make the file publicly accessible
       });
 
-      // Construct the URL for the uploaded image
-      imageUrl = [`https://storage.googleapis.com/${bucket.name}/${destination}`];
+      blobStream.on("error", (err) => {
+        console.error("File upload error:", err);
+        res.status(500).json({ error: "File upload failed" });
+      });
 
-      // Delete the file from the local server after uploading
-      fs.unlinkSync(file.path);
+      blobStream.on("finish", () => {
+        // Get the public URL for the uploaded file
+        imageUrl = `https://storage.googleapis.com/${bucket.name}/${blob.name}`;
+
+        // Insert the menu item into the database after the file upload is complete
+        insertMenuItem(type, name, price, descr, imageUrl, menuId, res);
+      });
+
+      // Pipe the file data to the stream
+      blobStream.end(file.buffer);
+    } else {
+      // If no file is provided, just insert the item without an image
+      insertMenuItem(type, name, price, descr, imageUrl, menuId, res);
     }
-
-    // Insert the menu item into the database
-    const insertQuery = `
-      INSERT INTO menu_items (type, name, price, descr, rating, image_url, menu_id)
-      VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING *`;
-    const insertValues = [type, name, price, descr, 0, imageUrl, menuId];
-
-    const result = await pool.query(insertQuery, insertValues);
-
-    res.status(201).json(result.rows[0]);
   } catch (error) {
     console.error("Error inserting menu item:", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
 });
+
 
 
 module.exports = router;
