@@ -188,6 +188,71 @@ router.post("/menu/items", authenticateUser, upload.single("image"), async (req,
   }
 });
 
+router.put("/menu/items/:id", authenticateUser, upload.single("image"), async (req, res) => {
+  const itemId = req.params.id; // Menu item ID
+  const { type, name, price, descr, oldImageUrl, restaurantName } = req.body;
+
+  try {
+    let imageUrl = oldImageUrl; // Default to old image URL
+
+
+    // Check if a new image was uploaded
+    if (req.file) {
+      // Delete the old image if it exists
+      if (oldImageUrl) {
+        const filePath = oldImageUrl.split(`${bucket.name}/`)[1];
+        await bucket.file(filePath).delete();
+      }
+
+      const file = req.file;
+      const destination = `restaurants/${restaurantName}/menu/${file.originalname}-${Date.now()}${path.extname(file.originalname)}`;
+
+      // Upload the new image to Firebase Storage
+      const blob = bucket.file(destination);
+      const blobStream = blob.createWriteStream({
+        metadata: {
+          contentType: file.mimetype,
+        },
+        public: true,
+      });
+
+      // Handle upload stream
+      blobStream.on("error", (err) => {
+        console.error("File upload error:", err);
+        return res.status(500).json({ error: "File upload failed" });
+      });
+
+      blobStream.on("finish", () => {
+        // Get the public URL for the uploaded image
+        imageUrl = `https://storage.googleapis.com/${bucket.name}/${blob.name}`;
+      });
+
+      blobStream.end(file.buffer);
+    }
+
+    // Update the menu item in the database
+    const query = `
+      UPDATE menu_items 
+      SET type = $1, name = $2, price = $3, descr = $4, image_url = $5
+      WHERE id = $6
+      RETURNING *`;
+
+    const values = [type, name, price, descr, imageUrl, itemId];
+    const result = await pool.query(query, values);
+
+    if (result.rows.length === 0) {
+      return res.status(404).json({ error: "Menu item not found" });
+    }
+
+    res.json(result.rows[0]);
+  } catch (error) {
+    console.error("Error updating menu item:", error);
+    res.status(500).json({ error: "Server error" });
+  }
+});
+
+
+
 
 
 module.exports = router;

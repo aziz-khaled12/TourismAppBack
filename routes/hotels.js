@@ -81,7 +81,7 @@ router.post(
   authenticateUser,
   upload.single("image"),
   async (req, res) => {
-    const { capacity, number, price, hotel_id } = req.body;
+    const { capacity, number, price, hotel_id, single_beds, double_beds, name } = req.body;
 
     try {
       let imageUrl = null;
@@ -107,10 +107,10 @@ router.post(
       }
 
       const query = `
-        INSERT INTO hotel_rooms (hotel_id, number, capacity, price, image_url, occupied, free)
-        VALUES ($1, $2, $3, $4, $5, 0, $2)
+        INSERT INTO hotel_rooms (hotel_id, number, capacity, price, image_url, occupied, free, single_beds, double_beds, name)
+        VALUES ($1, $2, $3, $4, $5, 0, $2, $6, $7, $8)
         RETURNING *`;
-      const values = [hotel_id, number, capacity, price, imageUrl];
+      const values = [hotel_id, number, capacity, price, imageUrl, single_beds, double_beds, name];
 
       const result = await pool.query(query, values);
       res.json(result.rows[0]);
@@ -126,7 +126,7 @@ router.put(
   authenticateUser,
   upload.single("image"),
   async (req, res) => {
-    const { capacity, number, price, hotel_id, oldImageUrl } = req.body;
+    const { capacity, number, price, hotel_id, oldImageUrl, single_beds, double_beds, name } = req.body;
     const roomId = req.params.id;
 
     try {
@@ -158,10 +158,10 @@ router.put(
 
       const query = `
         UPDATE hotel_rooms 
-        SET hotel_id = $1, number = $2, capacity = $3, price = $4, image_url = $5
-        WHERE id = $6
+        SET hotel_id = $1, number = $2, capacity = $3, price = $4, image_url = $5, single_beds = $6, double_beds = $7, name = $8
+        WHERE id = $9
         RETURNING *`;
-      const values = [hotel_id, number, capacity, price, imageUrl, roomId];
+      const values = [hotel_id, number, capacity, price, imageUrl, single_beds, double_beds, name, roomId];
 
       const result = await pool.query(query, values);
       res.json(result.rows[0]);
