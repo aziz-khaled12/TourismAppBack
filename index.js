@@ -7,11 +7,10 @@ const hotelsRouter = require("./routes/hotels")
 const testRouter = require("./routes/test")
 const restaurantsRouter = require("./routes/restaurants")
 const locationsRouter = require("./routes/locations")
+const ordersRouter = require("./routes/orders")
 const interactionsRouter = require("./routes/interactions")
-const fs = require("fs");
+const menuRouter = require("./routes/menu")
 const path = require("path");
-const pool = require("./db");
-const bcrypt = require("bcryptjs");
 
 
 const app = express()
@@ -32,7 +31,7 @@ app.use('/restaurants', restaurantsRouter)
 app.use('/locations', locationsRouter)
 app.use('/interactions', interactionsRouter)
 app.use('/test', testRouter)
-
-
+app.use('/restaurants/menu', menuRouter)
+app.use('/restaurants/orders', ordersRouter)
 
 app.listen(port)

@@ -32,9 +32,6 @@ const hashPassword = async (password) => {
   }
 };
 
-router.get("/", (req, res) => {
-  res.send("User List");
-});
 
 router.post("/login", async (req, res) => {
   try {

@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 const pool = require("../db");
 const authenticateUser = require("../middlewares/authMiddleware");
-const { messaging } = require("firebase-admin");
 
 router.post("/like", authenticateUser, async (req, res) => {
   const { user_id, entity_id, entity_type } = req.body;
@@ -46,6 +45,8 @@ router.delete("/unlike", authenticateUser, async (req, res) => {
 });
 
 router.post("/booking", authenticateUser, async (req, res) => {
+  console.log("Request Body:", req.body);
+
   const {
     user_id,
     hotel_id,
@@ -77,6 +78,7 @@ router.post("/booking", authenticateUser, async (req, res) => {
   }
 });
 
+
 router.get("/bookings", authenticateUser, async (req, res) => {
   const { hotel_id } = req.query;
   try {
@@ -90,6 +92,7 @@ router.get("/bookings", authenticateUser, async (req, res) => {
     res.status(500).json({ message: "enternal error" });
   }
 });
+
 
 router.delete("/bookings", authenticateUser, async (req, res) => {
   const { booking_id } = req.query;

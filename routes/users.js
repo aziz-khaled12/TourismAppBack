@@ -37,16 +37,6 @@ router.get("/roles", async (req, res) => {
   }
 });
 
-router.get("/roles", async (req, res) => {
-  try {
-    const roles = await pool.query("SELECT * FROM roles");
-    res.json(roles.rows);
-  } catch (error) {
-    console.log(error);
-    res.status(500);
-  }
-});
-
 router.get("/likes", authenticateUser, async (req, res) => {
   const { user_id, type } = req.query;
 
@@ -65,4 +55,9 @@ router.get("/likes", authenticateUser, async (req, res) => {
     res.status(500).json({ message: "Server error", error });
   }
 });
+
+router.get("/orders", authenticateUser, async (req, res) => {
+
+})
+
 module.exports = router;
