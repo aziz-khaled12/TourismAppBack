@@ -56,6 +56,46 @@ router.get("/items", authenticateUser, async (req, res) => {
   }
 });
 
+router.get("/bestItems", authenticateUser, async (req, res) => {
+  const { id } = req.query;
+
+  try {
+    const result = await pool.query(
+      "SELECT mi.* FROM menu_items mi INNER JOIN menu m ON mi.menu_id = m.id INNER JOIN restaurant r ON m.restaurant_id = r.id WHERE r.id = $1 ORDER BY mi.rating DESC LIMIT 5;",
+      [id]
+    );
+    res.status(200).json(result.rows);
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+// Search menu items by name
+router.get('/search', async (req, res) => {
+  const { name } = req.query; // Get the search term from the query string
+  if (!name) {
+    return res.status(400).json({ message: "Please provide a search term" });
+  }
+
+  try {
+    const searchQuery = `
+      SELECT mi.*
+      FROM menu_items mi
+      WHERE mi.name ILIKE $1
+      ORDER BY mi.rating DESC
+      LIMIT 10;
+    `;
+    const values = [`%${name}%`]; // Use the name to search with wildcards
+
+    const result = await pool.query(searchQuery, values);
+    return res.status(200).json(result.rows);
+  } catch (error) {
+    console.error('Error searching for menu items:', error);
+    res.status(500).json({ message: "Internal server error" });
+  }
+});
+
+
 router.post(
   "/items",
   authenticateUser,
