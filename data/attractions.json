@@ -10435,5 +10435,71 @@
       "country": "Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر",
       "country_code": "dz"
     }
+  },
+
+  {
+    "name": "Hammam Dabbagh (Masakhit)",
+    "id": 1,
+    "lat": 36.4599,
+    "lon": 7.4437,
+    "address": {
+      "tourism": "Hammam Dabbagh",
+      "city": "Guelma",
+      "state": "Guelma",
+      "country": "Algeria",
+      "country_code": "dz"
+    }
+  },
+  {
+    "name": "Roman Theater of Guelma",
+    "id": 2,
+    "lat": 36.4656,
+    "lon": 7.4318,
+    "address": {
+      "tourism": "Roman Theater",
+      "city": "Guelma",
+      "state": "Guelma",
+      "country": "Algeria",
+      "country_code": "dz"
+    }
+  },
+  {
+    "name": "Mount Maouna National Park",
+    "id": 3,
+    "lat": 36.4583,
+    "lon": 7.4784,
+    "address": {
+      "tourism": "Mount Maouna",
+      "city": "Guelma",
+      "state": "Guelma",
+      "country": "Algeria",
+      "country_code": "dz"
+    }
+  },
+  {
+    "name": "Ancient City of Teplis",
+    "id": 4,
+    "lat": 36.4286,
+    "lon": 7.386,
+    "address": {
+      "tourism": "Ancient City of Teplis",
+      "city": "Ain Makhlouf",
+      "state": "Guelma",
+      "country": "Algeria",
+      "country_code": "dz"
+    }
+  },
+  {
+    "name": "Guelma Archaeological Museum",
+    "id": 5,
+    "lat": 36.4645,
+    "lon": 7.4282,
+    "address": {
+      "tourism": "Archaeological Museum",
+      "city": "Guelma",
+      "state": "Guelma",
+      "country": "Algeria",
+      "country_code": "dz"
+    }
   }
 ]
