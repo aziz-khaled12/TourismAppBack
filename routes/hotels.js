@@ -76,6 +76,8 @@ router.get("/rooms/:hotelId", authenticateUser, async (req, res) => {
   }
 });
 
+
+
 router.post(
   "/room",
   authenticateUser,

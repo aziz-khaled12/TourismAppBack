@@ -6,7 +6,6 @@ const jwt = require("jsonwebtoken");
 const JWT_SECRET = process.env.JWT_SECRET;
 const authenticateUser = require("../middlewares/authMiddleware");
 
-
 const getUserByEmail = async (email) => {
   try {
     const result = await pool.query("SELECT * FROM users WHERE email = $1", [
@@ -31,7 +30,6 @@ const hashPassword = async (password) => {
     throw error;
   }
 };
-
 
 router.post("/login", async (req, res) => {
   try {
@@ -61,18 +59,26 @@ router.post("/login", async (req, res) => {
 });
 
 router.post("/signup", async (req, res) => {
+  const { email, password, username, role } = req.body;
+  // Validate role_id
+  const validRoles = [1, 2, 3, 4, 5]; // User, Hotel, Agency, Taxi, Restaurant
+  if (!validRoles.includes(role)) {
+    return res.status(400).json({ message: "Invalid role_id" });
+  }
+
   try {
-    const { email, password, username, role } = req.body;
-    console.log(req.body);
     const hashedPassword = await hashPassword(password);
     const newUser = await pool.query(
-      "INSERT INTO users (email, password, username, role_id) VALUES($1, $2, $3, $4)",
+      "INSERT INTO users (email, password, username, role_id) VALUES($1, $2, $3, $4) RETURNING *",
       [email, hashedPassword, username, role]
     );
-    const token = jwt.sign({ user_data: newUser }, JWT_SECRET, {
+
+    
+
+    const token = jwt.sign({ user_data: newUser.rows[0] }, JWT_SECRET, {
       expiresIn: "1h",
     });
-    res.json(token);
+    res.status(200).json({ message: "signup successful", token });
   } catch (error) {
     if (error.code === "23505") {
       if (error.constraint === "unique_email") {
@@ -88,8 +94,8 @@ router.post("/signup", async (req, res) => {
   }
 });
 
-router.post('/verify-token', authenticateUser, (req, res) => {
-  res.status(200).json({ message: 'Token is valid', user: req.user });
+router.post("/verify-token", authenticateUser, (req, res) => {
+  res.status(200).json({ message: "Token is valid", user: req.user });
 });
 
 module.exports = router;
