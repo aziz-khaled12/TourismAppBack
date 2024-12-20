@@ -75,7 +75,6 @@ router.get("/:wilaya/best", authenticateUser, async (req, res) => {
 
 router.get("/info/:id", authenticateUser, async (req, res) => {
   const { id } = req.params;
-  console.log("Nigga");
   try {
     const query = "SELECT * FROM places WHERE id=$1";
     const values = [`${id}`];

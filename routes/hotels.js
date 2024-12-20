@@ -53,6 +53,24 @@ router.get("/:wilaya", authenticateUser, async (req, res) => {
   }
 });
 
+router.get("/:wilaya/best", authenticateUser, async (req, res) => {
+  const { wilaya } = req.params;
+  const { limit } = req.query;
+
+  try {
+    const query =
+      "SELECT * FROM hotels WHERE state=$1 ORDER BY rating DESC LIMIT $2";
+    const values = [`${wilaya}`, limit];
+
+    const result = await pool.query(query, values);
+
+    res.json(result.rows);
+  } catch (error) {
+    console.error("Error hotels places:", error);
+    res.status(500).send("Data not available");
+  }
+});
+
 router.get("/info/:id", authenticateUser, async (req, res) => {
   const { id } = req.params;
   try {

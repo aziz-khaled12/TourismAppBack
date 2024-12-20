@@ -7,7 +7,6 @@ const path = require("path");
 
 
 const getRestaurantsWithinRadius = async (lat, lon, radius) => {
-  console.log("lon: ", lon);
   const query = `
       SELECT *
       FROM restaurant
@@ -67,6 +66,24 @@ router.get("/:wilaya", authenticateUser, async (req, res) => {
     res.json(result.rows);
   } catch (error) {
     console.error("Error fetching hotels:", error);
+    res.status(500).send("Data not available");
+  }
+});
+
+router.get("/:wilaya/best", authenticateUser, async (req, res) => {
+  const { wilaya } = req.params;
+  const { limit } = req.query;
+
+  try {
+    const query =
+      "SELECT * FROM restaurant WHERE state=$1 ORDER BY rating DESC LIMIT $2";
+    const values = [`${wilaya}`, limit];
+
+    const result = await pool.query(query, values);
+
+    res.json(result.rows);
+  } catch (error) {
+    console.error("Error restaurants places:", error);
     res.status(500).send("Data not available");
   }
 });
