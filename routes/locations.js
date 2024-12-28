@@ -4,7 +4,6 @@ const fs = require("fs");
 const path = require("path");
 const pool = require("../db");
 const authenticateUser = require("../middlewares/authMiddleware");
-
 const wilayaFilePath = path.join(__dirname, "../data/wilayas.json");
 
 const loadLocationData = (LocationPath) => {
