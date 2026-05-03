@@ -17,6 +17,8 @@ const interactionsRouter = require("./routes/interactions");
 const menuRouter = require("./routes/menu");
 
 const app = express();
+const PORT = 3000;
+const HOST = "0.0.0.0";
 
 // Middleware
 app.use(cors());
@@ -42,9 +44,9 @@ app.get("/", (req, res) => {
 });
 
 // Start server function
-app.listen(3000, () => {
-  console.log("Server started on port 3000");
-})
+app.listen(PORT, HOST, () => {
+  console.log(`Server running at http://${HOST}:${PORT}`);
+});
 
 // Handle unhandled rejections
 process.on("unhandledRejection", (err) => {

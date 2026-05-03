@@ -8,7 +8,6 @@ class TripPlannerNLP {
         const statesData = JSON.parse(fs.readFileSync(wilayaFilePath, "utf8"));
         
         this.states = statesData.map(state => state.name.toLowerCase())
-        console.log(this.states)
 
         this.venueTypes = {
             hotel: ['hotel', 'motel', 'inn', 'resort', 'lodge'],

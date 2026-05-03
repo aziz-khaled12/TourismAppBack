@@ -24,6 +24,7 @@ const loadLocationData = (LocationPath) => {
 router.get("/wilaya", authenticateUser, (req, res) => {
   try {
     const wilayas = loadLocationData(wilayaFilePath);
+    console.log('wilayas: ', wilayas)
     res.json(wilayas);
   } catch (error) {
     res.status(500).send("Data not available");
